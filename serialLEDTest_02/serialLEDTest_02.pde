@@ -88,17 +88,3 @@ void mouseAction() {
   }
 }
 
-
-
-void keyPressed() {
-
-  if (keyCode==49) myPort.write(1);
-  if (keyCode==50) myPort.write(2);
-  if (keyCode==51) myPort.write(3);
-  if (keyCode==52) myPort.write(4);
-  if (keyCode==53) myPort.write(5);
-  if (keyCode==54) myPort.write(6);
-  if (keyCode==55) myPort.write(7);
-  if (keyCode==56) myPort.write(8);
-}
-
