@@ -39,7 +39,7 @@ void draw() {
     }
   }
 
-  //  drawCursor();
+  drawCursor((int)random(0, 9));
 }
 
 void drawCursor(int ii) {
@@ -53,8 +53,8 @@ void drawCursor(int ii) {
 
   ellipse(mouseX, mouseY, 40, 40);
 
-fill(palette[ii]);
-  ellipse(mouseX, mouseY, 20, 20);
+  fill(palette[ii]);
+  ellipse(mouseX, mouseY, 35, 35);
   popMatrix();
 }
 
