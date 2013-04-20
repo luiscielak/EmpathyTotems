@@ -8,7 +8,7 @@ int bluePin  = 11;  // Blue LED,  connected to digital pin 11
 
 
 long int inByte; 
-int wait = 1; //10ms
+int wait = 100; //10ms
 
 void setup()
 {
