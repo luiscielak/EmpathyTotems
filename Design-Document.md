@@ -34,10 +34,15 @@ An iterative experiment to understand human emotions technology as an extension 
 
 #### Feature by Feature Design Description
 
-The data input is received as a ratio correlating challenge : skill levels. This is represented among nine different zones based on Mihaly Csikszentmihalyi research on 'flow'.
+The data input is received as a ratio correlating challenge degree to skill level. This is represented among nine different zones based on Mihaly Csikszentmihalyi research on 'flow'. [List them here]
+
+The data is entered through a web-based mobile application designed for the iPhone. As The data is then stored in a database. The Arduino is loaded with custom software to fetch the emotion data from the database and interpreter it to a color pattern correlated to indicators based on the emotion data and Csikszentmihalyi research.
+
+A Processing application is running on a PC in order to continuously fetch emotion data from the server. This data is then interpreted by the software running on the Arduino.
+
+The data received and interpreted by the Arduino is then represented by an LED that constantly fluctuates through multiple color patters correlated to the user's emotion data.
 
 
-The data is entered through a web-based mobile application designed for the iPhone.
 <!-- Features: Hardware -->
 Hardware:
 
@@ -46,6 +51,9 @@ Hardware:
 - 1 RGB LED
 - 3 Resistors
 
+Topology:
+
+Application &rarr; Web server &rarr; Processing &rarr; Arduino &rarr; RGB LED
 
 <!-- Features: Setting up the hardware -->
 
