@@ -22,7 +22,7 @@ collect emotions, convert them to a quantitative rate, and visually display the 
 
 1. Understand and communicate our own feelings and emotions
 2. Recognize emotions that are being experienced by others around us
-3. Relate ourselves to the feelings of other and provide compassion
+3. Relate ourselves to the feelings of others and provide compassion
 
 For the user to increase her awareness of their own feelings and be able to communicate them across.
 
@@ -43,7 +43,9 @@ A mythical totem to represent a person's empathy rate. Empathy is seeing the wor
 <!-- Abstract: Conclusion -->
 
 
-#### Needs/Opportunity
+#### Need/Opportunity
+
+[human sadness; fast-paced world;]
 
 #### Market Research
 
@@ -63,14 +65,15 @@ The data received and interpreted by the Arduino is then represented by an LED t
 <!-- Features: Hardware -->
 Hardware:
 
+- Arduino Uno micro-controller
+- Ethernet Arduino shield
 - 4 Wires
-- 1 Breadboard
+- Breadboard
 - 1 RGB LED
 - 3 Resistors
+- 9v Battery
+- 9v Battery Arduino Adapter
 
-Topology:
-
-Application &rarr; Web Server &rarr; Processing &rarr; Arduino &rarr; RGB LED
 
 <!-- Features: Setting up the hardware -->
 
@@ -99,7 +102,7 @@ Functions:
 <!-- Features: Data I/O flow -->
 Data Input/Output Process flow:
 
-The data-entry mobile web-based collects the emotion raw data and stores it in a database. An empathy rate value is then calculated based on current and historical emotion data. The empathy rate is then fetched via Bluetooth by an Arduino micro-controlled located in the totem. The totem then represents the empathy rate value with pre-assigned color.
+The data-entry mobile web-based collects the emotion raw data and stores it in a database. An empathy rate value is then calculated based on current and historical emotion data. The empathy rate is then fetched via Bluetooth by an Arduino micro-controlled located in the totem. The totem then represents the empathy rate based on a pre-assigned color palette.
 
 <!-- Features: Information Output -->
 
@@ -107,7 +110,8 @@ The data-entry mobile web-based collects the emotion raw data and stores it in a
 Structure: 
 
 - Totem-based structure design
-- Ping-Pong ball to be used as a diffuser
+- Low-poly themed aesthetic
+- Ping-Pong ball as LED diffuser
 
 <!-- Features: Diagrams -->
 Diagrams: 
@@ -116,7 +120,11 @@ Diagrams:
 
 [circuit diagram]
 
+Network Topology:
+
 [network topology diagram]
+
+Application &rarr; Web Server &rarr; Processing &rarr; Arduino
 
 [hardware set-up diagram]
 
@@ -127,7 +135,82 @@ Diagrams:
 
 - - -
 
+## Press Pack
+
+Empathy Totems
+
+The world's first smart totem to track, analyze and represent emotion data.
+
+Let's improve the quality of human lifeform.
+
+##### Content
+
+- Struggles of an every-day life
+- The product
+- Product features
+- Photos
+- About
+
+##### Struggles of an 'every-day' life
+
+[Quotes, paradoxes and existentialist goodies here]
+
+[significant stats]
+
+30% of [bla, bla, bla] can be [bla, bla,bla] 125 times more than [more bla]
+
+[some sad story on depression or some other human nonsense]
+
+Why is it important to monitor your resting heart rate? A higher resting pulse than usual can be a sign of over-training or illness.
+
+
+##### The Product
+
+The world's first smart totem to track, analyze and represent emotion data.
+
+<!-- For a happier life :) -->
+
+*For happier humans :)*
+
+- First totem with human emotion rate monitoring
+- High accuracy happiness tracking based on the Experience Sampling Method (ESM)
+- Free app to monitor, visualize, and understand your emotional patterns
+- Automatic upload readings over Bluetooth
+
+
+The human emotion tracking totem
+
+- Emotions and feelings tracking
+- Empathy levels measurement and analysis
+- Openness in communication channels with loved ones
+- Wireless sync via Bluetooth
+
+Product Features
+
+- Data input mobile app for constant and accurate data gathering
+- Experience Sampling Method (ESM). Electronic paging approach to study happiness; Hektner, Csikszentmihalyi
+- Automatic data synchronization. Constant and up-to-date empathy rate visual representation 
+- Seamless connectivity. Bluetooth for easy setup and hassle-free data transfers
+
+
+- - -
+
 #### Sources
+
+
+<!-- 
+
+### Notes:
+
+Einfühlungsvermögen -> Empathy
+	
+	[ ] http://en.wikipedia.org/wiki/Empathy
+
+
+- - -
+
+-->
+
 
 
 <!-- 
@@ -142,7 +225,13 @@ Software:
 
 - Configure empathy rate representation patterns
 
+Enclosure:
+
+- 
+
 -->
+
+
 
 
 
