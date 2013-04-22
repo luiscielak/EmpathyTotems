@@ -11,22 +11,32 @@
 
 #### Abstract
 
-An iterative experiment to understand human emotions technology as an extension of our environment.
+<!-- Abstract: Why does the design exists? -->
 
-Enable people to understand, share, and increase their level of empathy to one another.
+This project investigates how people can gain a better understanding of human emotions by interacting with data systems as part of their environment.
 
-It is only after we have a deep understanding of our own emotions that we can reach a certain level of empathy.
+In everyday life we receive and emit information rooted to our internal emotional network. Often times our expression of these subconscious emotions is abstract, and has little or no value during heated relationship arguments.
+
+It is only after we have a deep understanding of our own emotions that we can reach a certain level of empathy. Empathy is seeing the world through other people's eyes [cite needed]. This is an important step in the path of accomplishing long-lasting human relationships.
+
+<!-- Abstract: How does the design fit the role? -->
 
 Purpose of the Empathy Totem system:
-collect emotions, convert them to a quantitative rate, and visually display the emotions that are being experienced.
 
-1. Understand and communicate our own feelings and emotions
-2. Recognize emotions that are being experienced by others around us
-3. Relate ourselves to the feelings of others and provide compassion
+To collect emotion data, convert them to a quantitative rate, and visually display the emotions that are being experienced. 
 
-For the user to increase her awareness of their own feelings and be able to communicate them across.
+Mission of the Empathy Totem system:
 
-A mythical totem to represent a person's empathy rate. Empathy is seeing the world through other people's eyes. 
+To enable people to understand, share, and increase their level of empathy to one another.
+
+Feedback loop within the Empathy Totem system:
+
+1. Self-actualization of current emotional climate
+2. Understanding and communication of our own emotional stream
+3. Recognizing external emotions that are being experienced by others around us
+4. Relate ourselves to the feelings of others and provide compassion
+
+The system output consists of a mythical totem serves as a visual representation of a person's empathy rate. This enables people to increase their emotional awareness level and communicate them across. The totem's physical structure acts as an omnipresent reminder of inner emotions.
 
 <!-- Abstract meta: 
     motivation, problem statement, approach, results, conclusions // http://www.ece.cmu.edu/~koopman/essays/abstract.html
@@ -45,37 +55,40 @@ A mythical totem to represent a person's empathy rate. Empathy is seeing the wor
 
 #### Need/Opportunity
 
-[human sadness; fast-paced world;]
+[Human sadness & fast-paced world buzzkill statements here]
 
 #### Market Research
 
-[ Sentiment analysis criticism here ]
+[Sentiment analysis criticism here and how it sucks so much]
 
 #### Feature by Feature Design Description
 
-The data input is received as a ratio correlating challenge degree to skill level. This is represented among nine different zones based on Mihaly Csikszentmihalyi research on 'flow'. [List them here]
+The data input is received as a ratio correlating challenge degree to skill level. This is represented among nine different zones based on Mihaly Csikszentmihalyi research on 'flow'. [List them here], [and cite]
 
-The data is entered through a web-based mobile application designed for the iPhone. As The data is then stored in a database. The Arduino is loaded with custom software to fetch the emotion data from the database and interpreter it to a color pattern correlated to indicators based on the emotion data and Csikszentmihalyi research.
+The data is entered through a web-based mobile application optimized for the iPhone. As The data is then stored in a database. The Arduino is loaded with custom software to fetch the emotion values from the database and interpreter it to a color palette correlated to indicators based on the emotion data and Csikszentmihalyi research. [add some other color theory shenanigans]
 
 A Processing application is running on a PC in order to continuously fetch emotion data from the server. This data is then interpreted by the software running on the Arduino.
 
-The data received and interpreted by the Arduino is then represented by an LED that constantly fluctuates through multiple color patters correlated to the user's emotion data.
+The data received and interpreted by the Arduino is then represented by an LED that constantly fluctuates through multiple color patters correlated to the user's historical and current emotion data.
 
 
 <!-- Features: Hardware -->
 Hardware:
 
-- Arduino Uno micro-controller
-- Ethernet Arduino shield
+- 1 Arduino Uno micro-controller
+- 1 Bluetooth Arduino shield
 - 4 Wires
-- Breadboard
+- 1 Breadboard
 - 1 RGB LED
 - 3 Resistors
-- 9v Battery
-- 9v Battery Arduino Adapter
+- 1 9v Battery
+- 1 9v Battery Arduino Adapter
 
 
-<!-- Features: Setting up the hardware -->
+<!-- Features: Hardware Setup -->
+Hardware Setup:
+
+[info here]
 
 <!-- Features: Software -->
 Software:
@@ -88,7 +101,7 @@ Software:
     - MySQL
     - PHP
 
-
+<!-- Features: Software Functions -->
 Functions:
 
 - Input emotion data from a mobile device
@@ -102,9 +115,7 @@ Functions:
 <!-- Features: Data I/O flow -->
 Data Input/Output Process flow:
 
-The data-entry mobile web-based collects the emotion raw data and stores it in a database. An empathy rate value is then calculated based on current and historical emotion data. The empathy rate is then fetched via Bluetooth by an Arduino micro-controlled located in the totem. The totem then represents the empathy rate based on a pre-assigned color palette.
-
-<!-- Features: Information Output -->
+The Empathy Totems mobile web app collects the emotion raw data and stores it in a database. An empathy rate value is then calculated based on current and historical emotion data. The empathy rate is then fetched via Bluetooth by an Arduino micro-controlled located in the totem. The totem then represents an empathy glow based on a correlating color palette.
 
 <!-- Features: Physical Structure -->
 Structure: 
@@ -113,27 +124,40 @@ Structure:
 - Low-poly themed aesthetic
 - Ping-Pong ball as LED diffuser
 
-<!-- Features: Diagrams -->
-Diagrams: 
+<!-- Diagrams -->
+####  Diagrams: 
 
-[data flow diagram]
+Data flow:
+
+Emotion &rarr; Emotion Rate &rarr; Empathy Rate &rarr; Empathy Glow
+
+Circuit:
 
 [circuit diagram]
 
 Network Topology:
 
-[network topology diagram]
-
 Application &rarr; Web Server &rarr; Processing &rarr; Arduino
+
+Hardware set-up:
 
 [hardware set-up diagram]
 
-[application stack diagram]
+Application Stack:
+
+Linux &rarr; Apache &rarr; MySQL &rarr; PHP &rarr; Application
 
 
 #### Concluding Remarks
 
+<!-- Personal postmortem -->
+Personal postmortem:
 
+[knock yourself out]
+
+Version 0.2:
+
+[list them here]
 
 - - -
 
@@ -149,13 +173,13 @@ Let's improve the quality of human lifeform.
 
 ##### Content
 
-- Struggles of an every-day life
+- Struggles of an everyday life
 - The product
 - Product features
 - Photos
 - About
 
-##### Struggles of an 'every-day' life
+##### Struggles of an everyday life
 
 [Quotes, paradoxes and existentialist goodies here]
 
@@ -165,7 +189,7 @@ Let's improve the quality of human lifeform.
 
 [some sad story on depression or some other human nonsense]
 
-Why is it important to monitor your resting heart rate? A higher resting pulse than usual can be a sign of over-training or illness.
+Why is it important to monitor your emotion rate? A higher [bla, bla] can be a sign of [more babbling] over [something or other].
 
 
 ##### The Product
@@ -189,13 +213,16 @@ The human emotion tracking totem
 - Openness in communication channels with loved ones
 - Wireless sync via Bluetooth
 
-Product Features
+##### Product Features
 
-- Data input mobile app for constant and accurate data gathering
-- Experience Sampling Method (ESM). Electronic paging approach to study happiness; Hektner, Csikszentmihalyi
-- Automatic data synchronization. Constant and up-to-date empathy rate visual representation 
-- Seamless connectivity. Bluetooth for easy setup and hassle-free data transfers
+- Data input mobile app for constant and accurate data gathering.
+- Data entry implementation based on the Experience Sampling Method (ESM), an electronic paging approach to study happiness. [Hektner, Csikszentmihalyi]
+- Automatic data synchronization. Constant and up-to-date empathy rate visual representation.
+- Seamless connectivity. Bluetooth for easy setup and hassle-free data transfers.
 
+##### Photos
+
+##### About
 
 - - -
 
@@ -203,6 +230,7 @@ Product Features
 
 Sensors:
 
+- Emotion rate sensor (patent pending)
 
 Apps:
 
@@ -225,7 +253,7 @@ Weight:
 
 - 0.0 kg
 
-Software requirements:
+Requirements:
 
 - Bluetooth-enabled PC (Mac, Windows, Linux)
 - Wi-Fi home network
