@@ -133,7 +133,11 @@ Application &rarr; Web Server &rarr; Processing &rarr; Arduino
 
 #### Concluding Remarks
 
+
+
 - - -
+
+
 
 ## Press Pack
 
@@ -194,6 +198,42 @@ Product Features
 
 
 - - -
+
+##### Intro
+
+Sensors:
+
+
+Apps:
+
+- Empathy Totems web-app iOS optimized
+- Native iOS and Android (v.02)
+
+Wireless sync:
+
+- Bluetooth connectivity compatible with Mac, Windows, and Linux
+
+Dimensions:
+
+- 00.0x00.0x00.0cm
+
+Power:
+
+- 1 9V Alkaline batter
+
+Weight:
+
+- 0.0 kg
+
+Software requirements:
+
+- Bluetooth-enabled PC (Mac, Windows, Linux)
+- Wi-Fi home network
+
+
+- - -
+
+
 
 #### Sources
 
