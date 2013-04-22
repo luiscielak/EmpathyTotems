@@ -13,6 +13,21 @@
 
 An iterative experiment to understand human emotions technology as an extension of our environment.
 
+Enable people to understand, share, and increase their level of empathy to one another.
+
+It is only after we have a deep understanding of our own emotions that we can reach a certain level of empathy.
+
+Purpose of the Empathy Totem system:
+collect emotions, convert them to a quantitative rate, and visually display the emotions that are being experienced.
+
+1. Understand and communicate our own feelings and emotions
+2. Recognize emotions that are being experienced by others around us
+3. Relate ourselves to the feelings of other and provide compassion
+
+For the user to increase her awareness of their own feelings and be able to communicate them across.
+
+A mythical totem to represent a person's empathy rate. Empathy is seeing the world through other people's eyes. 
+
 <!-- Abstract meta: 
     motivation, problem statement, approach, results, conclusions // http://www.ece.cmu.edu/~koopman/essays/abstract.html
     -or-
@@ -31,6 +46,8 @@ An iterative experiment to understand human emotions technology as an extension 
 #### Needs/Opportunity
 
 #### Market Research
+
+[ Sentiment analysis criticism here ]
 
 #### Feature by Feature Design Description
 
@@ -53,7 +70,7 @@ Hardware:
 
 Topology:
 
-Application &rarr; Web server &rarr; Processing &rarr; Arduino &rarr; RGB LED
+Application &rarr; Web Server &rarr; Processing &rarr; Arduino &rarr; RGB LED
 
 <!-- Features: Setting up the hardware -->
 
@@ -79,9 +96,32 @@ Functions:
 - Represent empathy rate by using color, form, shape, and texture
 
 
-<!-- Features: Data Entry -->
+<!-- Features: Data I/O flow -->
+Data Input/Output Process flow:
+
+The data-entry mobile web-based collects the emotion raw data and stores it in a database. An empathy rate value is then calculated based on current and historical emotion data. The empathy rate is then fetched via Bluetooth by an Arduino micro-controlled located in the totem. The totem then represents the empathy rate value with pre-assigned color.
 
 <!-- Features: Information Output -->
+
+<!-- Features: Physical Structure -->
+Structure: 
+
+- Totem-based structure design
+- Ping-Pong ball to be used as a diffuser
+
+<!-- Features: Diagrams -->
+Diagrams: 
+
+[data flow diagram]
+
+[circuit diagram]
+
+[network topology diagram]
+
+[hardware set-up diagram]
+
+[application stack diagram]
+
 
 #### Concluding Remarks
 
