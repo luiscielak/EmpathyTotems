@@ -99,19 +99,6 @@ void draw() {
     break;
   }
 
-
-  //  println(state+" "+r+" "+g+" "+b);
-
-
-  //  image(img, 0, 0);
-  //  img.loadPixels();
-
-
-  //    myPort.write("CL");
-  //    myPort.write(int(red(img.pixels[mouseX+mouseY*img.width])));
-  //    myPort.write(int(green(img.pixels[mouseX+mouseY*img.width]))); 
-  //    myPort.write(int(blue(img.pixels[mouseX+mouseY*img.width])));
-
   myPort.write("CL");
   myPort.write(r); 
   myPort.write(g);
@@ -132,17 +119,5 @@ void keyPressed() {
   if (keyCode==56) state=8;
   if (keyCode==57) state=9;
 
-  println(keyCode+" "+state);
 }
 
-/*
-
- Empathy Totems color palette
- 
- 
- 
- 
- 
- 
- 
- */
