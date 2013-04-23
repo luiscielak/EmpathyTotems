@@ -1,4 +1,4 @@
-//  colourMap.pde
+//  colorMap.pde
 //  Works RGB_LED.ino
 
 import processing.serial.*;

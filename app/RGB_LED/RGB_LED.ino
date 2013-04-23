@@ -24,52 +24,51 @@ void setup()
 
 void outputColour(int red, int green, int blue) {
 
+  /*
   // Red fade in  
-  for (i=0; i<red; i++){
-    analogWrite(redPin, i);
-    delay(10);
-  }
+   for (i=0; i<red; i++){
+   analogWrite(redPin, i);
+   delay(10);
+   }
+   
+   
+   // Green fade in  
+   for (i=0; i<green; i++){
+   analogWrite(greenPin, i);
+   delay(10);
+   }
+   
+   // Blue fade in  
+   for (i=0; i<blue; i++){
+   analogWrite(bluePin, i);
+   delay(10);
+   }
+   
+   // Red fade out  
+   for (i=red; i>0; i--){
+   analogWrite(redPin, i);
+   delay(10);
+   }
+   
+   
+   // Green fade out  
+   for (i=green; i>0; i--){
+   analogWrite(greenPin, i);
+   delay(10);
+   }
+   
+   
+   // Blue fade out  
+   for (i=blue; i>0; i--){
+   analogWrite(bluePin, i);
+   delay(10);
+   }
+   
+   */
 
-
-  // Green fade in  
-  for (i=0; i<green; i++){
-    analogWrite(greenPin, i);
-    delay(10);
-  }
-
-  // Blue fade in  
-  for (i=0; i<blue; i++){
-    analogWrite(bluePin, i);
-    delay(10);
-  }
-
-
-
-  // Red fade out  
-  for (i=red; i>0; i--){
-    analogWrite(redPin, i);
-    delay(10);
-  }
-
-
-  // Green fade out  
-  for (i=green; i>0; i--){
-    analogWrite(greenPin, i);
-    delay(10);
-  }
-
-
-  // Blue fade out  
-  for (i=blue; i>0; i--){
-    analogWrite(bluePin, i);
-    delay(10);
-  }
-
-
-
-  //  analogWrite(redPin, red);    
-  //  analogWrite(bluePin, blue);
-  //  analogWrite(greenPin, green);    
+    analogWrite(redPin, red);    
+    analogWrite(bluePin, blue);
+    analogWrite(greenPin, green);    
 
 }
 
@@ -111,6 +110,7 @@ void loop()
 
   //  delay(wait);
 }
+
 
 
 
