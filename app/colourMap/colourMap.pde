@@ -26,14 +26,17 @@ void draw() {
   img.loadPixels();
 
 
-  myPort.write("CL");
-  myPort.write(int(red(img.pixels[mouseX+mouseY*img.width])));
-  myPort.write(int(green(img.pixels[mouseX+mouseY*img.width]))); 
-  myPort.write(int(blue(img.pixels[mouseX+mouseY*img.width])));
+    myPort.write("CL");
+    myPort.write(int(red(img.pixels[mouseX+mouseY*img.width])));
+    myPort.write(int(green(img.pixels[mouseX+mouseY*img.width]))); 
+    myPort.write(int(blue(img.pixels[mouseX+mouseY*img.width])));
 
-  //  myPort.write((int)red(255));
-  //  myPort.write((int)green(0)); 
-  //  myPort.write((int)blue(0));
+//  myPort.write("CL");
+
+//  myPort.write(255); 
+
+//  myPort.write(0);
+//  myPort.write(0);
 
   println(int(red(img.pixels[mouseX+mouseY*img.width])));
   println(int(green(img.pixels[mouseX+mouseY*img.width])));
