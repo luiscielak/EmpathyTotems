@@ -14,7 +14,7 @@ void setup() {
   size(512, 512);
   smooth();
   frameRate(10);
-  
+
   // Initialize geometry
   RG.init(this);
 
@@ -30,6 +30,5 @@ void draw() {
 
   // Render totem
   totem.run();
-  
 }
 

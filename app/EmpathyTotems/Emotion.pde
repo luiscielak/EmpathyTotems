@@ -7,7 +7,6 @@ class Emotion {
   Emotion() {
   }
 
-
   void fetchData() {
 
     String data;
@@ -20,9 +19,8 @@ class Emotion {
       // Read and buffer data
       BufferedReader in = new
         BufferedReader(new InputStreamReader(conn.getInputStream()));
-
+      // Parse HTML
       while ( (data = in.readLine ()) !=null) {
-
         String[] m = match(data, "<span id='emo_name'>(.+?)</span>");
         if (m != null) {
           name = m[1];
