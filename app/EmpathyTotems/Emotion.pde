@@ -1,11 +1,12 @@
 // Emotion class
 class Emotion {
-
+  String currentEmo;
   String feed = "http://fstraat.webfactional.com/emto/getLastEmotion.php";
 
 
   Emotion() {
   }
+
 
   void fetchData() {
 
@@ -25,7 +26,7 @@ class Emotion {
         String[] m = match(data, "<span id='emo_name'>(.+?)</span>");
         if (m != null) {
           currentEmo = m[1];
-          println(currentEmo);
+          // println(currentEmo);
         }
       }
     }
@@ -34,6 +35,10 @@ class Emotion {
       ex.printStackTrace();
       System.out.println("ERROR: "+ex.getMessage());
     }
+  }
+
+  String getEmotion() {
+    return currentEmo;
   }
 }
 

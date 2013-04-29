@@ -4,15 +4,17 @@
 //
 // Works with Totem_LED.ino
 
+import processing.serial.*;
+
+Serial myPort;
 Totem to;
-
-int state = 0;
-String currentEmo;
-
 
 void setup() {
   size(512, 512);
   smooth();
+
+  // Define Arduino port
+  myPort = new Serial(this, Serial.list()[4], 9600);
 
   // Create totem object  
   to = new Totem();
