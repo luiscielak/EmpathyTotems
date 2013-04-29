@@ -9,8 +9,6 @@
     
     Research:
 
-
-
     Compelling issues around:
         - needs to understand partner and self mental state over a few days
 
@@ -53,9 +51,9 @@ Design Process:
 
 -->
 
-## Empathy Totems v0.1
+## Empathy Totems
 
-### Design Document
+### Design Document v0.2
 
 #### Abstract
 
@@ -103,11 +101,31 @@ The system output consists of a mythical totem serving as a visual representatio
 
 #### Need/Opportunity
 
-[Human sadness & fast-paced world buzzkill statements here]
+<!-- [Human sadness & fast-paced world buzzkill statements here] -->
+
+For people to learn how to notice and accept up and down patterns. Welcome emotions instead of burying them. Modify their environment to minimize well-being impact.
+
+By tracking emotion data we are able to see changes day to day, and week by week. Encounter patterns and discover behaviors.
+
+By sharing emotion data we achieve a level of connectedness and a sense of community that improves the self-esteem.
+
+
+
+[Ashford 2012]
+
 
 #### Market Research
 
-[Sentiment analysis criticism here and how it sucks so much]
+<!-- [Sentiment analysis criticism here and how it sucks so much] -->
+
+"Depression affects about 121 million people worldwide, with many more going undiagnosed, and is the leading cause of disability. Anxiety disorders touch 16% of people globally at some point in their lives." [Ashford 2012]
+
+Mood tracking methodologies have been proven to increase understanding and lessen the amount of mood swings among Bipolar Disorder patients.
+
+The increase of presence among mood tracking apps such as 'Track Your Happiness' (+ add more). All with the mission of improving people's life.
+
+[Ashford 2012]
+
 
 #### Feature by Feature Design Description
 
@@ -201,14 +219,18 @@ Linux &rarr; Apache &rarr; MySQL &rarr; PHP &rarr; Application
 <!-- Personal postmortem -->
 Personal postmortem:
 
-[knock yourself out]
+#### Challenges:
+
+- Lack of well-designed mood tracking studies
+
 
 Version 0.2:
 
 [list them here]
 
-- - -
 
+
+- - -
 
 
 ## Press Pack
@@ -313,7 +335,10 @@ Requirements:
 
 #### Sources
 
-
+Quantified Self; Get your mood on
+    Rain Ashford
+    Robin Barooah 
+    http://quantifiedself.com/2012/12/get-your-mood-on-part-1/
 
 
 <!-- 
