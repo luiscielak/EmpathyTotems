@@ -1,6 +1,5 @@
 // Totem class
 class Totem {
-
   RShape shp;
   Emotion em;
   PVector location = new PVector(0, 0);
@@ -45,7 +44,7 @@ class Totem {
     // Display totem
     pushMatrix();
     translate(width/5, 0 +width/24);
-    // Disable native styles and apply custom
+    // Disable native styles and apply custom ones
     RG.ignoreStyles(true);  
     stroke(255);
     strokeWeight(2);
@@ -155,7 +154,6 @@ class Totem {
   }
 
   void sendColor() {
-
     // Sends color values to Arduino
     myPort.write("CL");    // clears the buffer
     myPort.write(r); 
