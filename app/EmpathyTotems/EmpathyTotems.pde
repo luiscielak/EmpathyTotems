@@ -11,7 +11,7 @@ Serial myPort;
 Totem totem;
 
 void setup() {
-  size(512, 512);
+  size(1024,768);
   smooth();
   frameRate(10);
 
