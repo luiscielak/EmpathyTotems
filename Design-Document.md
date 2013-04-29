@@ -5,6 +5,54 @@
 *   2013-04-20
 -->
 
+<!--  
+    
+    Research:
+
+
+
+    Compelling issues around:
+        - needs to understand partner and self mental state over a few days
+
+    You can look to probably tons of research on:
+        - tracking mood
+            - PANAA; PONS; color mood
+        - self awareness with interactive systems
+        - Experience Sampling Method (ESM)
+
+    Market research:
+        - Current companies for self-tracking devices
+            - Withings
+            - Nike
+            - Nest
+        - Market ecosystem
+            - Connected devices and sensors
+                - http://www.ninjablocks.com/
+                - knut
+                - twine
+                    http://supermechanical.com/
+            - Automated homes
+                ..Now those systems are becoming more affordable and easier to manage, thanks in part to Kickstarter-fueled interest in "The Internet of Things," 
+                http://mashable.com/2013/01/20/smart-home/
+
+    Physical structure and materials:
+        - Totems
+        - Low-poly aesthetic
+
+- - -
+
+Design Process: 
+    - Inspiration
+    - Concept
+    - Problem Definition
+    - Research
+    - Prototype
+    - Build
+
+
+
+-->
+
 ## Empathy Totems v0.1
 
 ### Design Document
@@ -264,6 +312,8 @@ Requirements:
 
 
 #### Sources
+
+
 
 
 <!-- 
