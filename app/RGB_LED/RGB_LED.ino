@@ -1,5 +1,5 @@
 //  RGB_LED.ino
-//  Works with colourMap.pde
+//  Works with colorMap.pde
 
 int i = 0; // counter
 
