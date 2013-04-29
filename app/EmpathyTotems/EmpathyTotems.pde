@@ -5,26 +5,31 @@
 // Works with Totem_LED.ino
 
 import processing.serial.*;
+import geomerative.*;
 
 Serial myPort;
-Totem to;
+Totem totem;
 
 void setup() {
   size(512, 512);
   smooth();
+  frameRate(10);
+  
+  // Initialize geometry
+  RG.init(this);
 
-  // Define Arduino port
+  // Initialize Arduino port
   myPort = new Serial(this, Serial.list()[4], 9600);
 
   // Create totem object  
-  to = new Totem();
+  totem = new Totem();
 }
 
 
 void draw() {
-  background(255);
 
-  // Run totem object
-  to.run();
+  // Render totem
+  totem.run();
+  
 }
 
