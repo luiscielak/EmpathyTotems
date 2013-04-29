@@ -79,7 +79,7 @@ Feedback loop within the Empathy Totem system:
 
 1. Self-actualization of current emotional climate
 2. Understanding and communication of our own emotional stream
-3. Recognize external emotions that are being experienced by others around us
+3. Recognition of external emotions experienced by others around us
 4. Relate ourselves to the feelings of others and provide compassion
 
 The system output consists of a mythical totem serving as a visual representation of a person's empathy rate. This enables people to increase their emotional awareness level and communicate it across. The totem's physical structure acts as an omnipresent reminder of inner emotions.
