@@ -12,86 +12,55 @@ void setup() {
   size(512, 512);
   smooth();
 
-  getData();
-  //  fetchData();
+  fetchData();
 }
 
 
 void draw() {
+  background(40);
+
+  for (Emotion e:emotions) {
+    e.run();
+  }
+
 }
 
 
-void getData() {
+void fetchData() {
 
   String request = feed;
   String result = join( loadStrings( request ), "");
 
   int total = 0;
-  
-      println(result);
 
   try {
     JSONObject data = new JSONObject("{'result':" + result + "}");
+    JSONArray results = data.getJSONArray("result");
 
+    total = results.length();
 
-    //    JSONArray results = data.getJSONArray("id");
-    //    println(results);
-    //    total = data.getInt("total");
-    //    println ("There were " + total + " occurences of the term " + word + " between " + beginDate + " and " + endDate);
+    // Parse JSON object and create an emo object per record
+    for (int i=0; i<total; i++) {
+
+      JSONObject row = results.getJSONObject(i);
+
+      Emotion emo = new Emotion();
+
+      emo.id = row.getString("id");
+      emo.name = row.getString("name");
+      emo.challenge = row.getInt("challenge");
+      emo.skill = row.getInt("skill");
+      emo.dtm = row.getString("dtm");
+
+      emotions.add(emo);
+
+    }
   }
   catch (JSONException e) {
     println ("There was an error parsing the JSONObject.");
   };
 
-  //  writeFile(result);
-  println(total);
-  //  return(total);
+  println(total+" records");
+  println(emotions.size()+" emotions");
 };
-
-
-
-
-void fetchData() {
-
-  String data;
-
-  try {
-    URL url = new URL(feed);
-    URLConnection conn = url.openConnection();
-    conn.connect();
-
-    // Read and buffer data
-    BufferedReader in = new
-      BufferedReader(new InputStreamReader(conn.getInputStream()));
-
-
-    while ( (data = in.readLine ()) !=null) {
-
-
-
-      //println(data);
-      //      String[] m = match(data, "'695'");
-      //      println(m);
-
-      //      if (m != null) {
-      //        emotions.add(new Emotion());
-      //        println(emotions.size());
-
-      //        currentEmo = m[1];
-      //        println(currentEmo);
-      //      }
-
-      //      String[] n = match(data, "<span id='emo_dtm'>(.+?)</span>");
-      //      if (n != null) {
-      //        emoDate = n[1];
-      //        println(emoDate);
-      //      }
-    }
-  }
-  // Error handling 
-  catch (Exception ex) {
-    ex.printStackTrace();
-    System.out.println("ERROR: "+ex.getMessage());
-  }
-}
 
