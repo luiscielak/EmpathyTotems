@@ -6,6 +6,7 @@
 // Works with EmpathyTotems.pde
 
 int i = 0; // counter
+int MAX_BRIGHTNESS = 200;
 
 // Output
 int redPin   = 9;
@@ -21,59 +22,30 @@ void setup() {
   pinMode(greenPin, OUTPUT);   
   pinMode(bluePin,  OUTPUT);
 
+
+  // bring the LED up nicely from being off
+  for(i = 0 ; i <= MAX_BRIGHTNESS; i+=1)
+  {
+    analogWrite(redPin, i);
+    analogWrite(greenPin, i);
+    analogWrite(bluePin, i);
+    delay(15);
+  }
+
+
+
   Serial.begin(9600); 
 }
 
 
-void outputColour(int red, int green, int blue) {
-
-  /*
-  // Red fade in  
-   for (i=0; i<red; i++){
-   analogWrite(redPin, i);
-   delay(10);
-   }
-   
-   
-   // Green fade in  
-   for (i=0; i<green; i++){
-   analogWrite(greenPin, i);
-   delay(10);
-   }
-   
-   // Blue fade in  
-   for (i=0; i<blue; i++){
-   analogWrite(bluePin, i);
-   delay(10);
-   }
-   
-   // Red fade out  
-   for (i=red; i>0; i--){
-   analogWrite(redPin, i);
-   delay(10);
-   }
-   
-   
-   // Green fade out  
-   for (i=green; i>0; i--){
-   analogWrite(greenPin, i);
-   delay(10);
-   }
-   
-   
-   // Blue fade out  
-   for (i=blue; i>0; i--){
-   analogWrite(bluePin, i);
-   delay(10);
-   }
-   
-   */
+void outputColor(int red, int green, int blue) {
 
   analogWrite(redPin, red);    
   analogWrite(bluePin, blue);
   analogWrite(greenPin, green);    
 
 }
+
 
 
 int* getColour() {
@@ -106,12 +78,18 @@ void loop() {
       one =  getColour();
 
       //1 2 3 not 0 1 2 due to the dud value
-      outputColour(one[1],one[2],one[3]);
+      outputColor(one[1],one[2],one[3]);
     } 
   }
 
-  //  delay(wait);
+  delay(wait);
+
+
 }
+
+
+
+
 
 
 
