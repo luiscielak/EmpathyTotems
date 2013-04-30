@@ -12,7 +12,8 @@ Serial myPort;
 Totem totem;
 
 void setup() {
-  size(512,512);
+  size(512, 512);
+
   smooth();
   frameRate(10);
 
@@ -20,7 +21,7 @@ void setup() {
   RG.init(this);
 
   // Initialize Arduino port
-//  myPort = new Serial(this, Serial.list()[4], 9600);
+  myPort = new Serial(this, Serial.list()[4], 9600);
 
   // Create totem object  
   totem = new Totem();
