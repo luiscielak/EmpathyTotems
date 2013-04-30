@@ -4,9 +4,13 @@ class Particle {
   PVector acceleration;
   float lifespan;
 
+
+
   Particle(PVector l) {
-    acceleration = new PVector(0, 0.5);
-    velocity = new PVector(random(-1, 1), random(-2, 0));
+    //    acceleration = new PVector(0, 0.5);
+    acceleration = new PVector(0, 0);
+    //    velocity = new PVector(random(-1, 1), random(-2, 0));
+    velocity = new PVector(0, random(10));
     location = l.get();
     lifespan = 255.0;
   }
@@ -20,9 +24,12 @@ class Particle {
     velocity.add(acceleration);
     location.add(velocity);
     lifespan -= 2.0;
+
   }
 
   void display() {
+    //    stroke(0, lifespan);
+    //    fill(240, lifespan);
     stroke(0, lifespan);
     fill(240, lifespan);
     ellipse(location.x, location.y, 8, 8);

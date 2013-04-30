@@ -6,31 +6,37 @@ class Emotion {
   int challenge;
   int skill;
   String dtm;
-
-  PVector location = new PVector(random(20, width-20), random(20, height-20));
   
-  color col = 255;
-  int r, g, b, a;
+  int state;
 
   Emotion() {
   }
 
   void run() {
-    update();
-    render();
+    create();
   }
 
   void update() {
-    // Set color
-    col = (int)map(challenge, 0, 3, 100, 200);
-    // Set alpha
-    a = (int)map(skill, 0, 3, 100, 200);
+    // Update current state
+    if (name.equals("neutral")) state=0;
+    if (name.equals("apathy")) state=1;
+    if (name.equals("worry")) state=2;
+    if (name.equals("anxiety")) state=3;
+    if (name.equals("boredom")) state=4;
+    if (name.equals("arousal")) state=5;
+    if (name.equals("relaxation")) state=6;
+    if (name.equals("control")) state=7;
+    if (name.equals("flow")) state=8;
+    if (name.equals("na")) state=9;
   }
 
-  void render() {
-    fill(col,a);
-    noStroke();
-    ellipse(location.x, location.y, 20, 20);
+
+  void create() {
+
+    ps.addParticle(mouseX, mouseY);
+
+    //    ps.addParticle();
+    ps.run();
   }
 }
 

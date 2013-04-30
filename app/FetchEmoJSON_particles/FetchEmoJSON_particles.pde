@@ -1,6 +1,6 @@
 // FetchEmoJSON_particles.pde
+// Particle system for emotion data
 // Luis Cielak
-// 2013-04-30
 
 import org.json.*;
 
@@ -21,26 +21,19 @@ void setup() {
   particles = new ArrayList<Particle>();
 
   ps = new ParticleSystem(new PVector(width/2, 50));
+
+  for (Emotion e:emotions) {
+    //    //    e.run();
+    //
+    ps.addParticle(width/2,0);
+  }
 }
 
 
 void draw() {
   background(40);
 
-
-  // Option #1 (move the Particle System origin)
-  ps.origin.set(mouseX, mouseY, 0);
-
-  ps.addParticle();
   ps.run();
-
-  // Option #2 (move the Particle System origin)
-  ps.addParticle(mouseX, mouseY);
-
-
-  for (Emotion e:emotions) {
-    //    e.run();
-  }
 }
 
 void fetchData() {
