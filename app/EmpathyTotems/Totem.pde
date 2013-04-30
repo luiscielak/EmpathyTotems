@@ -5,8 +5,8 @@ class Totem {
   PVector location = new PVector(0, 0);
   color col;
   int r, g, b;
-  int state = 0;
-  String currentEmo = "neutral";
+  int state;
+  String currentEmo;
 
   color[] palette = {
     #f59898, // anxiety
@@ -62,9 +62,10 @@ class Totem {
     // Set the current totem color
     col = color(r, g, b);
 
-    //
+    // Set current emotion
     currentEmo = em.getEmotion();
-
+   
+   
     // Update current state
     if (keyCode==48 || currentEmo.equals("neutral")) state=0;
     if (keyCode==49 || currentEmo.equals("apathy")) state=1;
@@ -154,13 +155,11 @@ class Totem {
   }
 
   void sendColor() {
-    if (DEBUG) {
-      // Sends color values to Arduino
-      myPort.write("CL");    // clears the buffer
-      myPort.write(r); 
-      myPort.write(g);
-      myPort.write(b);
-    }
+    // Sends color values to Arduino
+    myPort.write("CL");    // clears the buffer
+    myPort.write(r); 
+    myPort.write(g);
+    myPort.write(b);
   }
 }
 
