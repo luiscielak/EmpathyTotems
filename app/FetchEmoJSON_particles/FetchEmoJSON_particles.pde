@@ -19,26 +19,27 @@ void setup() {
   fetchData();
 
   particles = new ArrayList<Particle>();
+
+  ps = new ParticleSystem(new PVector(width/2, 50));
 }
 
 
 void draw() {
   background(40);
 
-  particles.add(new Particle(new PVector(random(0, 100), random(0, 100))));
 
-  Iterator<Particle> it = particles.iterator();
-  while (it.hasNext ()) {
-    Particle p = it.next();
-    p.run();
-    if (p.isDead()) {
-      it.remove();
-    }
-  }
+  // Option #1 (move the Particle System origin)
+  ps.origin.set(mouseX, mouseY, 0);
+
+  ps.addParticle();
+  ps.run();
+
+  // Option #2 (move the Particle System origin)
+  ps.addParticle(mouseX, mouseY);
 
 
   for (Emotion e:emotions) {
-//    e.run();
+    //    e.run();
   }
 }
 
