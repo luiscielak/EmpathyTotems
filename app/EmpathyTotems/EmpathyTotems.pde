@@ -11,6 +11,8 @@ import geomerative.*;
 Serial myPort;
 Totem totem;
 
+boolean DEBUG;  // Debug flag
+
 void setup() {
   size(512, 512);
 
@@ -21,7 +23,13 @@ void setup() {
   RG.init(this);
 
   // Initialize Arduino port
-  myPort = new Serial(this, Serial.list()[4], 9600);
+  try {
+    myPort = new Serial(this, Serial.list()[4], 9600);
+  } 
+  catch (Exception ex) {
+    ex.printStackTrace();
+    System.out.println("ERROR: "+ex.getMessage());
+  }
 
   // Create totem object  
   totem = new Totem();

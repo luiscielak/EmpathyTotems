@@ -8,6 +8,7 @@ class Totem {
   int state = 0;
   String currentEmo = "neutral";
 
+
   color[] palette = {
     #f59898, // anxiety
     #f7ebb4, // arousal
@@ -154,11 +155,13 @@ class Totem {
   }
 
   void sendColor() {
-    // Sends color values to Arduino
-    myPort.write("CL");    // clears the buffer
-    myPort.write(r); 
-    myPort.write(g);
-    myPort.write(b);
+    if (DEBUG) {
+      // Sends color values to Arduino
+      myPort.write("CL");    // clears the buffer
+      myPort.write(r); 
+      myPort.write(g);
+      myPort.write(b);
+    }
   }
 }
 
