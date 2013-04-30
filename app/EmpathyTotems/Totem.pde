@@ -8,7 +8,6 @@ class Totem {
   int state = 0;
   String currentEmo = "neutral";
 
-
   color[] palette = {
     #f59898, // anxiety
     #f7ebb4, // arousal

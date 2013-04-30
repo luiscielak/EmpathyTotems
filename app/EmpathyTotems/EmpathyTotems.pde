@@ -29,6 +29,7 @@ void setup() {
   catch (Exception ex) {
     ex.printStackTrace();
     System.out.println("ERROR: "+ex.getMessage());
+    println ("There was an error with the Arduino board.");
   }
 
   // Create totem object  
