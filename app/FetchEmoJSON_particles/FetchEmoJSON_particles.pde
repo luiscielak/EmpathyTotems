@@ -1,6 +1,6 @@
-// FetchEmoJSON.pde
+// FetchEmoJSON_particles.pde
 // Luis Cielak
-// 2013-04-26
+// 2013-04-30
 
 import org.json.*;
 
@@ -8,28 +8,44 @@ String feed = "http://fstraat.webfactional.com/emto/getEmotionsJSON.php";
 
 ArrayList<Emotion> emotions = new ArrayList<Emotion>();
 
+ArrayList<Particle> particles;
+
+ParticleSystem ps;
+
 void setup() {
-  size(800, 600);
+  size(600, 600);
   smooth();
 
   fetchData();
+
+  particles = new ArrayList<Particle>();
 }
 
 
 void draw() {
   background(40);
 
-  for (Emotion e:emotions) {
-    e.run();
+  particles.add(new Particle(new PVector(random(0, 100), random(0, 100))));
+
+  Iterator<Particle> it = particles.iterator();
+  while (it.hasNext ()) {
+    Particle p = it.next();
+    p.run();
+    if (p.isDead()) {
+      it.remove();
+    }
   }
 
-}
 
+  for (Emotion e:emotions) {
+//    e.run();
+  }
+}
 
 void fetchData() {
 
   String request = feed;
-  String result = join(loadStrings(request),"");
+  String result = join(loadStrings(request), "");
 
   int total = 0;  
 
@@ -53,7 +69,6 @@ void fetchData() {
       emo.dtm = row.getString("dtm");
 
       emotions.add(emo);
-
     }
   }
   catch (JSONException e) {
