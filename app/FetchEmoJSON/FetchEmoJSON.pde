@@ -12,8 +12,8 @@ void setup() {
   size(512, 512);
   smooth();
 
-  //  getData();
-  fetchData();
+  getData();
+  //  fetchData();
 }
 
 
@@ -27,9 +27,12 @@ void getData() {
   String result = join( loadStrings( request ), "");
 
   int total = 0;
+  
+      println(result);
 
   try {
-    JSONObject data = new JSONObject(join(loadStrings(feed), ","));
+    JSONObject data = new JSONObject("{'result':" + result + "}");
+
 
     //    JSONArray results = data.getJSONArray("id");
     //    println(results);
@@ -66,9 +69,9 @@ void fetchData() {
 
 
 
-//println(data);
-      String[] m = match(data, "'695'");
-      println(m);
+      //println(data);
+      //      String[] m = match(data, "'695'");
+      //      println(m);
 
       //      if (m != null) {
       //        emotions.add(new Emotion());
