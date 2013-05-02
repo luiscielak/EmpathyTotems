@@ -8,7 +8,7 @@
 ## Empathy Totems
 
 Luis Cielak  
-May 5th, 2013  
+May 2nd, 2013  
 
 ### Design Document
 
