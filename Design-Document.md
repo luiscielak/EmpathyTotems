@@ -2,58 +2,12 @@
 *   Empathy Totems
 *   Design Document 
 *   Luis Cielak
-*   2013-04-20
--->
-
-<!--  
-    
-    Research:
-
-    Compelling issues around:
-        - needs to understand partner and self mental state over a few days
-
-    You can look to probably tons of research on:
-        - tracking mood
-            - PANAA; PONS; color mood
-        - self awareness with interactive systems
-        - Experience Sampling Method (ESM)
-
-    Market research:
-        - Current companies for self-tracking devices
-            - Withings
-            - Nike
-            - Nest
-        - Market ecosystem
-            - Connected devices and sensors
-                - http://www.ninjablocks.com/
-                - knut
-                - twine
-                    http://supermechanical.com/
-            - Automated homes
-                ..Now those systems are becoming more affordable and easier to manage, thanks in part to Kickstarter-fueled interest in "The Internet of Things," 
-                http://mashable.com/2013/01/20/smart-home/
-
-    Physical structure and materials:
-        - Totems
-        - Low-poly aesthetic
-
-- - -
-
-Design Process: 
-    - Inspiration
-    - Concept
-    - Problem Definition
-    - Research
-    - Prototype
-    - Build
-
-
-
+*   2013-05-02
 -->
 
 ## Empathy Totems
 
-### Design Document v0.2
+### Design Document
 
 #### Abstract
 
@@ -64,23 +18,6 @@ This project investigates how people can gain a better understanding of human em
 In everyday life we receive and emit information rooted to our internal emotional network. Often times our expression of these subconscious emotions is abstract, and has little or no value during heated relationship arguments.
 
 It is only after we have a deep understanding of our own emotions that we can reach a certain level of empathy. Empathy is seeing the world through other people's eyes. This is an important step in the path of accomplishing long-lasting human relationships.
-
-<!-- Abstract: How does the design fit the role? -->
-
-
-<!-- Abstract meta: 
-    motivation, problem statement, approach, results, conclusions // http://www.ece.cmu.edu/~koopman/essays/abstract.html
-    -or-
-    purpose, methods, scope, results, conclusions, and recommendations. -->
-
-<!-- Abstract contents:
-    Why the design exists; How does the design fit that role -->
-
-<!-- Abstract: Intro -->
-
-<!-- Abstract: Body -->
-
-<!-- Abstract: Conclusion -->
 
 
 #### Need/Opportunity
@@ -144,17 +81,17 @@ LAMP stack server
 
 <!-- Features: Software Functions -->
 Functions:
-: &nbws;  
-- Input emotion data from a mobile device  
-- Store emotion entries for further analysis  
-- Send emotion data to Arduino  
-- Receive emotion data from server  
-- Interpret emotion data and convert to empathy rate  
-- Represent empathy rate by using color, form, shape, and texture  
+: 
+-Input emotion data from a mobile device  
+-Store emotion entries for further analysis  
+-Send emotion data to an Arduino microcontroller  
+-Receive emotion data from server  
+-Interpret emotion data and convert to empathy rate  
+-Represent empathy rate by using color, form, shape, and texture  
 
 
 <!-- Diagrams -->
-####  Diagrams: 
+####  Diagrams
 
 Data Flow:
 :
@@ -170,24 +107,45 @@ Application &rarr; Web Server &rarr; Processing &rarr; Arduino
 
 
 
+<!-- Conclusion -->
+
 #### Concluding Remarks
 
-<!-- Personal postmortem -->
-Personal postmortem:
+<!-- Personal postmortem: -->
 
-#### Challenges:
+I need to do more research on available mood tracking studies such as PANAA, PONS, ESM.
 
-- Lack of well-designed mood tracking studies
+More research on human behavior and emotion patterns.
+
+The Internet of things and home automation products and services.
+
+Challenges:
+: 
+-Lack of well-designed mood tracking studies  
 
 
-Version 0.2:
+Next version:
+:  
+-Wireless functionality over Bluetooth or WiFi  
+-Multiple-user support  
+-Dynamic tool for totem creation for 3D printing
 
-[list them here]
+- - -
 
+#### Sources
+
+Beyond Boredom and Anxiety: Experiencing Flow in Work and Play
+:   Mihaly Csikszentmihalyi
+
+Quantified Self: Get your mood on
+:   Rain Ashford  
+    Robin Barooah  
+    http://quantifiedself.com/2012/12/get-your-mood-on-part-1/
 
 
 - - -
 
+- - -
 
 ## Press Pack
 
@@ -244,63 +202,7 @@ The human emotion tracking totem
 
 ##### About
 
-- - -
-
-
-#### Sources
-
-Quantified Self; Get your mood on
-:    Rain Ashford
-    Robin Barooah 
-    http://quantifiedself.com/2012/12/get-your-mood-on-part-1/
-
-Withings
-    http://www.withings.com/
-
-Fitbit
-    http://www.fitbit.com/
-
-Nike+ Fuel Band
-    http://www.nike.com/us/en_us/c/nikeplus-fuelband
-
-
-<!-- 
-
-### Notes:
-
-Einfühlungsvermögen -> Empathy
-	
-	[ ] http://en.wikipedia.org/wiki/Empathy
-
 
 - - -
 
--->
-
-
-
-<!-- 
-
-### v0.2
-
-Hardware:
-
-- WiFi Shield
-
-Software:
-
-- Configure empathy rate representation patterns
-
-Enclosure:
-
-- 
-
--->
-
-
-
-
-
-
-
-
+- - -
