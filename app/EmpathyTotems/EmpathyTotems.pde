@@ -11,7 +11,6 @@ import geomerative.*;
 Serial myPort;
 Totem totem;
 
-boolean DEBUG;  // Debug flag
 
 void setup() {
   size(512, 512);

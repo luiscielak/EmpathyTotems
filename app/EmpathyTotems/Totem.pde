@@ -154,13 +154,13 @@ class Totem {
   }
 
   void sendColor() {
-    if (DEBUG) {
+
       // Sends color values to Arduino
       myPort.write("CL");    // clears the buffer
       myPort.write(r); 
       myPort.write(g);
       myPort.write(b);
-    }
+
   }
 }
 
