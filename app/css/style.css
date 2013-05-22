@@ -1,0 +1,168 @@
+body {
+    margin: 0 0;
+    padding: 0 0;
+    background: #fff;	/*#D8D8D8;*/
+
+    height: 100%;
+}
+
+.nav {
+	height: 100px;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #fff;
+	background-color: rgba(247,247,247,1); /*#f7f7f7;*/
+	text-align: center;
+
+
+}
+
+.wrapper {
+	width: 640px;
+	text-align: center;
+}
+
+.intro {
+	height: 30px;
+}
+
+.nav h3 {
+	width: 640px;
+	font-family: 'Open Sans', Arial, Helvetica, Geneva, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	color: rgb(102, 102, 102);
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 32px;
+	cursor: default;
+}
+
+
+button[type=submit] {
+	font-family: 'Open Sans', Arial, Helvetica, Geneva, sans-serif;
+	font-size: 20px;
+	width: 180px;
+	height: 180px;
+	margin: 14px;
+	background: #D8D8D8;
+	color: #fff;
+	line-height: 39px;
+	border-radius: 8px;
+	border: 2px solid #9B9B9B;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border: thick solid;
+}
+
+
+
+.emotion {
+	font-family: 'Open Sans', Arial, Helvetica, Geneva, sans-serif;
+	font-size: 20px;
+	width: 180px;
+	height: 180px;
+	margin: 14px;
+	
+
+	background: #D8D8D8;
+
+	color: #fff;
+	line-height: 39px;
+
+	border-radius: 8px;
+	border: 2px solid #9B9B9B;
+
+
+
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+
+	
+	border: thick solid;
+}
+
+
+.status {
+	color: #fff;
+	font-family: 'Open Sans', Arial, Helvetica, Geneva, sans-serif;
+	font-size: 18px;
+
+	background: #D8D8D8;
+	color: #fff;
+
+	letter-spacing: 1px;
+	/*text-transform: uppercase;*/
+
+	float: right;
+}
+
+
+
+
+
+#anxiety,#anxiety:hover {
+	background-color: #f59898;
+
+}
+
+#arousal, #arousal:hover {
+	background-color: #f7ebb4;
+}
+
+#flow, #flow:hover {
+	background-color: #f6f699;
+}
+
+#worry, #worry:hover {
+	background-color: #d8ceec;
+}
+
+#neutral, #neutral:hover {
+	/*color: rgb(102, 102, 102);*/
+	background-color: #D8D8D8; 	 /* white-> #fcfcf6; */
+}
+
+#control, #control:hover {
+	background-color: #e9f7b3;
+}
+
+#apathy, #apathy:hover {
+	background-color: #99b7e6;
+}
+
+#boredom, #boredom:hover {
+	background-color: #c2e9e0;
+}
+
+#relaxation, #relaxation:hover {
+	background-color: #97f597;
+}
+
+button[type=submit]:hover {
+	cursor: pointer;
+	/*border-bottom: 4px solid #fff;*/
+	border: thick solid;
+	font-weight: bold;
+	/*margin: 0 0 0 0;*/
+}
+
+
+
+
+/*
+
+color[] palette = {
+  #f59898, // anxiety
+  #d8ceec, // worry 
+  #99b7e6, // apathy 
+  #f7ebb4, // arousal
+  #fcfcf6, // neutral
+  #c2e9e0, // boredom 
+  #f6f699, // flow 
+  #e9f7b3, // control 
+  #97f597  // relaxation
+};
+
+
+*/
