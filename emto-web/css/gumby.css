@@ -2637,7 +2637,7 @@ article { float: none; margin-left: auto !important; margin-right: auto !importa
 #footer { background-color: gray; }
 #footer li { text-align: center; display: inline; }
 
-.example-grid .parallax { width: 100%; height: 300px; background-image: url(file://localhost/Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/emto-web/img/totem_01.jpg); }
+.example-grid .parallax { width: 100%; height: 300px; background-image: url(../img/totem_01.jpg); }
 
 .parallax { background-attachment: fixed !important; }
 
