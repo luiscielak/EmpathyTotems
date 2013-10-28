@@ -1,0 +1,195 @@
+// Empathy Totems
+// custom scss
+
+//////////
+// BASE //
+//////////
+
+body,h1,h2,h3,h4,h5,h6,p,a {
+  color: $white;
+}
+
+a:hover {
+  color: blue;
+}
+
+h2 {
+ padding-top: 30px;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 1.5em;
+  padding-bottom: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+
+//////////
+// GRID //
+//////////
+
+section {
+  @include row();
+}
+
+article {
+  @include column(8, 'center');
+
+}
+
+aside {
+  // @include column(4);
+}
+
+////////////
+// LAYOUT //
+////////////
+
+.wrapper {
+  // background-color: gray;
+}
+
+.intro-container {
+  background-color: purple !important;
+}
+
+.about-container {
+  background-color: rgba(0,169,70,1) !important;
+}
+
+.features-container {
+  background-color: orange;
+}
+
+.footer-container {
+  background-color: gray;
+}
+
+
+/////////
+// NAV //
+/////////
+
+#global-nav {
+  margin-bottom: 0;
+  background-color: transparent;
+}
+
+///////////
+// INTRO //
+///////////
+
+
+#intro {
+  background-color: purple;
+  min-height: 768px;
+  text-align: center;
+  margin-top: -60px;
+}
+
+.intro-text {
+  margin-top: 80px;
+
+  h1 {
+    font-size: 3.5em;
+  }
+}
+
+.intro-action {
+  padding: 30px 0 30px 0;
+  margin-top: 300px;
+}
+
+
+///////////
+// ABOUT //
+///////////
+
+#about {
+  background-color: rgba(0,169,70,1);
+  min-height: 768px;
+
+  h2 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  li {
+    font-size: 1.2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+  }
+}
+
+
+//////////////
+// FEATURES //
+//////////////
+
+#features {
+  background-color: orange;
+  min-height: 768px;
+  text-align: center;
+
+  i {
+    display: block;
+  }
+
+  li {
+    padding-top: 30px;
+  }
+
+  p {
+    text-align: left;
+  }
+
+}
+
+////////////
+// FOOTER //
+////////////
+
+#footer {
+  background-color: gray;
+  li {
+    text-align: center;
+    display: inline;
+  }
+
+}
+
+
+
+///////////
+// HACKS //
+///////////
+
+
+.example-grid .parallax {
+  width: 100%;
+  height: 300px;
+  // background-image: url(http://gumbyframework.com/img/img_parallax_demo.jpg);
+  background-image: url(file://localhost/Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/emto-web/img/totem_01.jpg);
+}
+
+
+.parallax {
+  background-attachment: fixed !important;
+}
+
+
+#flexible {
+  background: url(../img/bg_phone.png) no-repeat right bottom;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+
