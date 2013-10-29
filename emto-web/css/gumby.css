@@ -38,7 +38,7 @@ section { *zoom: 1; }
 section:before, section:after { content: ""; display: table; }
 section:after { clear: both; }
 
-article { margin-left: 2.12766%; float: left; min-height: 1px; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+article, .parallax-image { margin-left: 2.12766%; float: left; min-height: 1px; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 .pull_right { float: right; }
 
@@ -2605,7 +2605,7 @@ section { width: 100%; max-width: 980px; min-width: 320px; margin: 0 auto; paddi
 section > *:first-child { margin-left: 0; }
 @media only screen and (max-width: 767px) { section { width: auto; min-width: 0; margin-left: 0; margin-right: 0; } }
 
-article { float: none; margin-left: auto !important; margin-right: auto !important; width: 65.95745%; }
+article { float: none; margin-left: auto !important; margin-right: auto !important; width: 82.97872%; }
 @media only screen and (max-width: 767px) { article { float: left; margin-left: 0; width: 100%; } }
 
 .intro-container { background-color: purple !important; min-height: 100%; position: relative; }
@@ -2640,5 +2640,8 @@ article { float: none; margin-left: auto !important; margin-right: auto !importa
 .example-grid .parallax { width: 100%; height: 300px; background-image: url(../img/totem_01.jpg); }
 
 .parallax { background-attachment: fixed !important; }
+
+.parallax-image { width: 82.97872%; }
+@media only screen and (max-width: 767px) { .parallax-image { float: left; margin-left: 0; width: 100%; } }
 
 #flexible { background: url(../img/bg_phone.png) no-repeat right bottom; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; transition-duration: 0.5s; }
