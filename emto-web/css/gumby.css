@@ -2622,7 +2622,7 @@ aside { width: 31.91489%; }
 
 .features-container { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3498db), color-stop(100%, #2980b9)); background-image: -webkit-linear-gradient(#3498db, #2980b9); background-image: -moz-linear-gradient(#3498db, #2980b9); background-image: -o-linear-gradient(#3498db, #2980b9); background-image: linear-gradient(#3498db, #2980b9); min-height: 100%; position: relative; }
 
-.footer-container { background-color: #34495e; }
+.footer-container { background-color: #34495e; cursor: default; }
 
 #global-nav { margin-bottom: 0; background-color: #9b59b6; }
 
