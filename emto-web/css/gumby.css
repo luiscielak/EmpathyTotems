@@ -2628,15 +2628,14 @@ aside { width: 31.91489%; }
 
 #intro { text-align: center; }
 #intro a { font-size: 26px; }
-#intro i { padding-top: 20px; }
+#intro i { padding-top: 30px; }
 
-.intro-text { margin-top: 80px; }
 .intro-text h1 { font-size: 9em; font-family: "mathlete-bulky-webfont"; padding-bottom: 0px; }
 .intro-text h4 { font-family: "rambla-libro-webfont"; margin-top: -30px; }
 
 .intro-headline h4 { font-size: 2.6em; }
 
-.intro-action { padding: 30px 0 30px 0; margin-top: 200px; }
+.intro-action { padding: 30px 0 30px 0; margin-top: 360px; }
 
 #about { min-height: 768px; }
 #about h2 { text-align: center; padding-top: 60px; padding-bottom: 40px; }
@@ -2675,6 +2674,6 @@ aside { width: 31.91489%; }
   40% { -webkit-transform: translateY(-30px); -moz-transform: translateY(-30px); -ms-transform: translateY(-30px); transform: translateY(-30px); }
   60% { -webkit-transform: translateY(-15px); -moz-transform: translateY(-15px); -ms-transform: translateY(-15px); transform: translateY(-15px); } }
 
-.arrow { position: fixed; bottom: 0; left: 50%; margin-left: -20px; width: 40px; height: 40px; background-size: contain; font-size: 2em; }
+.arrow { position: fixed; bottom: 0; left: 50%; margin-left: -20px; width: 40px; height: 40px; background-size: contain; font-size: 1.8em; }
 
 .bounce { -webkit-animation: bounce 10s infinite; -moz-animation: bounce 10s infinite; -ms-animation: bounce 10s infinite; animation: bounce 10s infinite; }
