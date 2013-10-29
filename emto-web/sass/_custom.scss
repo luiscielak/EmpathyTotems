@@ -55,15 +55,23 @@ aside {
 
 .intro-container {
   background-color: purple !important;
+  min-height: 100%;
+  position: relative;
+
 }
 
 .about-container {
   background-color: rgba(0,169,70,1) !important;
+  min-height: 100%;
+  position: relative;
 }
 
 .features-container {
   background-color: orange;
+  min-height: 100%;
+  position: relative;
 }
+
 
 .footer-container {
   background-color: gray;

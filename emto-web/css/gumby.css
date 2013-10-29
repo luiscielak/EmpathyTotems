@@ -2608,11 +2608,11 @@ section > *:first-child { margin-left: 0; }
 article { float: none; margin-left: auto !important; margin-right: auto !important; width: 65.95745%; }
 @media only screen and (max-width: 767px) { article { float: left; margin-left: 0; width: 100%; } }
 
-.intro-container { background-color: purple !important; }
+.intro-container { background-color: purple !important; min-height: 100%; position: relative; }
 
-.about-container { background-color: #00a946 !important; }
+.about-container { background-color: #00a946 !important; min-height: 100%; position: relative; }
 
-.features-container { background-color: orange; }
+.features-container { background-color: orange; min-height: 100%; position: relative; }
 
 .footer-container { background-color: gray; }
 
