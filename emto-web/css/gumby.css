@@ -2608,33 +2608,32 @@ section > *:first-child { margin-left: 0; }
 article { float: none; margin-left: auto !important; margin-right: auto !important; width: 82.97872%; }
 @media only screen and (max-width: 767px) { article { float: left; margin-left: 0; width: 100%; } }
 
-.intro-container { background-color: purple !important; min-height: 100%; position: relative; }
+.intro-container { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9b59b6), color-stop(100%, #8e44ad)); background-image: -webkit-linear-gradient(#9b59b6, #8e44ad); background-image: -moz-linear-gradient(#9b59b6, #8e44ad); background-image: -o-linear-gradient(#9b59b6, #8e44ad); background-image: linear-gradient(#9b59b6, #8e44ad); min-height: 100%; position: relative; }
 
-.about-container { background-color: #00a946 !important; min-height: 100%; position: relative; }
+.about-container { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2ecc71), color-stop(100%, #27ae60)); background-image: -webkit-linear-gradient(#2ecc71, #27ae60); background-image: -moz-linear-gradient(#2ecc71, #27ae60); background-image: -o-linear-gradient(#2ecc71, #27ae60); background-image: linear-gradient(#2ecc71, #27ae60); min-height: 100%; position: relative; }
 
-.features-container { background-color: orange; min-height: 100%; position: relative; }
+.features-container { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3498db), color-stop(100%, #2980b9)); background-image: -webkit-linear-gradient(#3498db, #2980b9); background-image: -moz-linear-gradient(#3498db, #2980b9); background-image: -o-linear-gradient(#3498db, #2980b9); background-image: linear-gradient(#3498db, #2980b9); min-height: 100%; position: relative; }
 
-.footer-container { background-color: gray; }
+.footer-container { background-color: #34495e; }
 
-#global-nav { margin-bottom: 0; background-color: transparent; }
+#global-nav { margin-bottom: 0; background-color: #9b59b6; }
 
-#intro { background-color: purple; min-height: 768px; text-align: center; margin-top: -60px; }
+#intro { text-align: center; }
 
 .intro-text { margin-top: 80px; }
 .intro-text h1 { font-size: 3.5em; }
 
 .intro-action { padding: 30px 0 30px 0; margin-top: 300px; }
 
-#about { background-color: #00a946; min-height: 768px; }
+#about { min-height: 768px; }
 #about h2 { text-align: center; padding-top: 60px; padding-bottom: 40px; }
 #about li { font-size: 1.2em; padding-top: 20px; padding-bottom: 20px; text-align: left; }
 
-#features { background-color: orange; min-height: 768px; text-align: center; }
+#features { min-height: 768px; text-align: center; }
 #features i { display: block; }
 #features li { padding-top: 30px; }
 #features p { text-align: left; }
 
-#footer { background-color: gray; }
 #footer li { text-align: center; display: inline; }
 
 .example-grid .parallax { width: 100%; height: 300px; background-image: url(../img/totem_01.jpg); }

@@ -53,27 +53,31 @@ aside {
 }
 
 .intro-container {
-  background-color: purple !important;
+  @include background-image(linear-gradient(#9b59b6,#8e44ad)); // purple
   min-height: 100%;
   position: relative;
 
 }
 
 .about-container {
-  background-color: rgba(0,169,70,1) !important;
+  // background-color: #27ae60 !important; // green
+  // @include background-image(linear-gradient(#8e44ad,#2ecc71));
+  @include background-image(linear-gradient(#2ecc71,#27ae60));
   min-height: 100%;
   position: relative;
 }
 
 .features-container {
-  background-color: orange;
+  // background-color: #e67e22; // orange
+  @include background-image(linear-gradient(#3498db,#2980b9));
   min-height: 100%;
   position: relative;
 }
 
 
 .footer-container {
-  background-color: gray;
+  // background-color: #7f8c8d; // gray
+  background-color: #34495e;
 }
 
 
@@ -83,7 +87,7 @@ aside {
 
 #global-nav {
   margin-bottom: 0;
-  background-color: transparent;
+  background-color: #9b59b6;
 }
 
 ///////////
@@ -92,10 +96,11 @@ aside {
 
 
 #intro {
-  background-color: purple;
-  min-height: 768px;
+  // background-color: #8e44ad; // purple
+  // min-height: 768px;
+  // @include background-image(linear-gradient(#9b59b6,#8e44ad));
   text-align: center;
-  margin-top: -60px;
+  // margin-top: -60px;
 }
 
 .intro-text {
@@ -117,7 +122,7 @@ aside {
 ///////////
 
 #about {
-  background-color: rgba(0,169,70,1);
+  // background-color: #27ae60; // green
   min-height: 768px;
 
   h2 {
@@ -140,7 +145,7 @@ aside {
 //////////////
 
 #features {
-  background-color: orange;
+  // background-color: #e67e22; // orange
   min-height: 768px;
   text-align: center;
 
@@ -163,7 +168,7 @@ aside {
 ////////////
 
 #footer {
-  background-color: gray;
+  // background-color: #7f8c8d; // gray
   li {
     text-align: center;
     display: inline;
