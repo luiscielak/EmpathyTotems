@@ -2,6 +2,8 @@
 
 // Import Google Web Fonts
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(fonts.googleapis.com/css?family=Rambla:400,300,600,700);
+
 
 
 // Set local icon font
@@ -14,6 +16,31 @@
        url('../fonts/icons/#{$icons}.woff') format('woff'),
        url('../fonts/icons/#{$icons}.ttf')  format('truetype');
 }
+
+
+// Mathlete
+@font-face {
+  font-family: '#{$mathlete}';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/mathlete/#{$mathlete}.eot);
+  src: url('../fonts/mathlete/#{$mathlete}.eot?#iefix') format('ie9-skip-eot'),
+       url('../fonts/mathlete/#{$mathlete}.woff') format('woff'),
+       url('../fonts/mathlete/#{$mathlete}.ttf')  format('truetype');
+}
+
+
+// Rambla
+// @font-face {
+//   font-family: '#{$rambla}';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: url(../fonts/rambla/#{$rambla}.eot);
+//   src: url('../fonts/rambla/#{$rambla}.eot?#iefix') format('ie9-skip-eot'),
+//        url('../fonts/rambla/#{$rambla}.woff') format('woff'),
+//        url('../fonts/rambla/#{$rambla}.ttf')  format('truetype');
+// }
+
 
 // To include your own, local copies of fonts, use the following template
 //
