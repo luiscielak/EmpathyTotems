@@ -38,7 +38,7 @@ section { *zoom: 1; }
 section:before, section:after { content: ""; display: table; }
 section:after { clear: both; }
 
-article, .parallax-image { margin-left: 2.12766%; float: left; min-height: 1px; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+article, aside, .parallax-image { margin-left: 2.12766%; float: left; min-height: 1px; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 .pull_right { float: right; }
 
@@ -2608,6 +2608,9 @@ section > *:first-child { margin-left: 0; }
 article { float: none; margin-left: auto !important; margin-right: auto !important; width: 82.97872%; }
 @media only screen and (max-width: 767px) { article { float: left; margin-left: 0; width: 100%; } }
 
+aside { width: 31.91489%; }
+@media only screen and (max-width: 767px) { aside { float: left; margin-left: 0; width: 100%; } }
+
 .intro-container { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9b59b6), color-stop(100%, #8e44ad)); background-image: -webkit-linear-gradient(#9b59b6, #8e44ad); background-image: -moz-linear-gradient(#9b59b6, #8e44ad); background-image: -o-linear-gradient(#9b59b6, #8e44ad); background-image: linear-gradient(#9b59b6, #8e44ad); min-height: 100%; position: relative; }
 
 .about-container { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2ecc71), color-stop(100%, #27ae60)); background-image: -webkit-linear-gradient(#2ecc71, #27ae60); background-image: -moz-linear-gradient(#2ecc71, #27ae60); background-image: -o-linear-gradient(#2ecc71, #27ae60); background-image: linear-gradient(#2ecc71, #27ae60); min-height: 100%; position: relative; }
@@ -2616,7 +2619,7 @@ article { float: none; margin-left: auto !important; margin-right: auto !importa
 
 .footer-container { background-color: #34495e; }
 
-#global-nav { margin-bottom: 0; background-color: #9b59b6; }
+#global-nav { margin-bottom: 0; background-color: transparent; }
 
 #intro { text-align: center; }
 

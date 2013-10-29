@@ -41,7 +41,7 @@ article {
 }
 
 aside {
-  // @include column(4);
+  @include column(4);
 }
 
 ////////////
@@ -60,15 +60,12 @@ aside {
 }
 
 .about-container {
-  // background-color: #27ae60 !important; // green
-  // @include background-image(linear-gradient(#8e44ad,#2ecc71));
   @include background-image(linear-gradient(#2ecc71,#27ae60));
   min-height: 100%;
   position: relative;
 }
 
 .features-container {
-  // background-color: #e67e22; // orange
   @include background-image(linear-gradient(#3498db,#2980b9));
   min-height: 100%;
   position: relative;
@@ -76,7 +73,6 @@ aside {
 
 
 .footer-container {
-  // background-color: #7f8c8d; // gray
   background-color: #34495e;
 }
 
@@ -87,7 +83,7 @@ aside {
 
 #global-nav {
   margin-bottom: 0;
-  background-color: #9b59b6;
+  background-color: transparent;
 }
 
 ///////////
@@ -96,11 +92,7 @@ aside {
 
 
 #intro {
-  // background-color: #8e44ad; // purple
-  // min-height: 768px;
-  // @include background-image(linear-gradient(#9b59b6,#8e44ad));
   text-align: center;
-  // margin-top: -60px;
 }
 
 .intro-text {
@@ -122,7 +114,6 @@ aside {
 ///////////
 
 #about {
-  // background-color: #27ae60; // green
   min-height: 768px;
 
   h2 {
@@ -145,7 +136,6 @@ aside {
 //////////////
 
 #features {
-  // background-color: #e67e22; // orange
   min-height: 768px;
   text-align: center;
 
@@ -168,7 +158,6 @@ aside {
 ////////////
 
 #footer {
-  // background-color: #7f8c8d; // gray
   li {
     text-align: center;
     display: inline;
