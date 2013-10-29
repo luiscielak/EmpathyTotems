@@ -1,11 +1,5 @@
 /* Fonts */
 
-// Import Google Web Fonts
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
-@import url(fonts.googleapis.com/css?family=Rambla:400,300,600,700);
-
-
-
 // Set local icon font
 @font-face {
   font-family: '#{$icons}';
@@ -31,25 +25,12 @@
 
 
 // Rambla
-// @font-face {
-//   font-family: '#{$rambla}';
-//   font-style: normal;
-//   font-weight: 400;
-//   src: url(../fonts/rambla/#{$rambla}.eot);
-//   src: url('../fonts/rambla/#{$rambla}.eot?#iefix') format('ie9-skip-eot'),
-//        url('../fonts/rambla/#{$rambla}.woff') format('woff'),
-//        url('../fonts/rambla/#{$rambla}.ttf')  format('truetype');
-// }
-
-
-// To include your own, local copies of fonts, use the following template
-//
-//@font-face {
-//  font-family: '#{$some-font-variable}';
-//  font-style: normal;
-//  font-weight: 400;
-//  src: url(../fonts/icons/#{$some-font-variable}.eot);
-//  src: url('../fonts/icons/#{$some-font-variable}.eot?#iefix') format('ie9-skip-eot'),
-//       url('../fonts/icons/#{$some-font-variable}.woff') format('woff'),
-//       url('../fonts/icons/#{$some-font-variable}.ttf')  format('truetype');
-//}
+@font-face {
+  font-family: '#{$rambla}';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/rambla/#{$rambla}.eot);
+  src: url('../fonts/rambla/#{$rambla}.eot?#iefix') format('ie9-skip-eot'),
+       url('../fonts/rambla/#{$rambla}.woff') format('woff'),
+       url('../fonts/rambla/#{$rambla}.ttf')  format('truetype');
+}

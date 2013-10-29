@@ -45,7 +45,7 @@
 <body>
 
 	<!-- Global Nav -->
-	<nav id="global-nav" class="navbar row" gumby-fixed="top">
+	<nav id="global-nav" class="navbar row">
 		<span class="twelve columns logo">
 			<a href="#">
 				<!-- <img src="/../../img/logo.png" gumby-retina /> -->
@@ -67,7 +67,7 @@
 
 			<article class="intro-action">
 				<a href="#about">Get Started with Empathy Totems <br>
-					<i class="icon-down-open-big"></i></a>
+					<i class="arrow animated bounce icon-down-open-big"></i></a>
 				</article>
 
 			</section>
@@ -83,40 +83,38 @@
 						<div class="parallax" gumby-parallax="0.5" style="background-position: 50% 1.9765625px;"></div>
 					</div>
 				</article>
- -->
-				<article>
-					<h2>System Feedback Loop</h2>
-					<li><strong>Self-actualization</strong> of current emotional climate</li>
-					<li><strong>Understanding</strong> and communication of our own emotional stream</li>
-					<li><strong>Recognition</strong> of external emotions experienced by others around us</li>
-					<li><strong>Relate</strong> ourselves to the feelings of others and provide compassion</li>
-				</article>
+			-->
+			<article>
+				<h2>System Feedback Loop</h2>
+				<li><strong>Self-actualization</strong> of current emotional climate</li>
+				<li><strong>Understanding</strong> and communication of our own emotional stream</li>
+				<li><strong>Recognition</strong> of external emotions experienced by others around us</li>
+				<li><strong>Relate</strong> ourselves to the feelings of others and provide compassion</li>
+			</article>
 
-			</section>
-		</div>
+		</section>
+	</div>
 
 
-		<!-- Features -->
-		<div class="wrapper features-container">
-			<section id="features">
-				<article>
-					<h2>Product Features</h2>
-					<h5>A non-verbal communication tool for people.</h5>
-				</article>
+	<!-- Features -->
+	<div class="wrapper features-container">
+		<section id="features">
+			<article>
+				<h2>Product Features</h2>
+				<h5>A non-verbal communication tool for people.</h5>
+			</article>
 
-				<article>
-					<li><h4><i class="icon-mobile"></i> Track yourself</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, consequuntur, consequatur quas quisquam accusantium quis nam at deserunt ut excepturi nobis voluptatem. </p></li>
-					<li><h4><i class="icon-cloud"></i> Own your data</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur sit blanditiis temporibus modi minima distinctio dolore assumenda animi tempore perferendis.</p></li>
-					<li><h4><i class="icon-light-up"></i> Express yourself</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, animi libero cupiditate cum corporis quia deleniti dolorem expedita voluptatum fugit numquam ma.</p></li>
-				</article>
-			</section>
-		</div>
+			<article>
+				<li><h4><i class="icon-mobile"></i> Track yourself</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, consequuntur, consequatur quas quisquam accusantium quis nam at deserunt ut excepturi nobis voluptatem. </p></li>
+				<li><h4><i class="icon-cloud"></i> Own your data</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur sit blanditiis temporibus modi minima distinctio dolore assumenda animi tempore perferendis.</p></li>
+				<li><h4><i class="icon-light-up"></i> Express yourself</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, animi libero cupiditate cum corporis quia deleniti dolorem expedita voluptatum fugit numquam ma.</p></li>
+			</article>
+		</section>
 
 
 
 		<!-- Footer -->
 		<div class="wrapper footer-container">
-
 			<section id="footer">
 				<div class="twelve columns">
 					<h6>&copy; 2013 Empathy Totems </h6>
@@ -124,27 +122,29 @@
 			</section>
 		</div>
 
+	</div>
 
 
-		<!-- Grab Google CDN's jQuery, fall back to local if offline -->
-		<!-- 2.0 for modern browsers, 1.10 for .oldie -->
-		<script>
-			var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+
+	<!-- Grab Google CDN's jQuery, fall back to local if offline -->
+	<!-- 2.0 for modern browsers, 1.10 for .oldie -->
+	<script>
+		var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+		if(!oldieCheck) {
+			document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
+		} else {
+			document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
+		}
+	</script>
+	<script>
+		if(!window.jQuery) {
 			if(!oldieCheck) {
-				document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
+				document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
 			} else {
-				document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
+				document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>');
 			}
-		</script>
-		<script>
-			if(!window.jQuery) {
-				if(!oldieCheck) {
-					document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
-				} else {
-					document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>');
-				}
-			}
-		</script>
+		}
+	</script>
 
 <!--
 Include gumby.js followed by UI modules followed by gumby.init.js
