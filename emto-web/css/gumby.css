@@ -1211,7 +1211,7 @@ i.icon-logo-db:before { content: "\f603"; height: inherit; }
 
 @font-face { font-family: "mathlete-bulky-webfont"; font-style: normal; font-weight: 400; src: url(../fonts/mathlete/mathlete-bulky-webfont.eot); src: url("../fonts/mathlete/mathlete-bulky-webfont.eot?#iefix") format("ie9-skip-eot"), url("../fonts/mathlete/mathlete-bulky-webfont.woff") format("woff"), url("../fonts/mathlete/mathlete-bulky-webfont.ttf") format("truetype"); }
 
-@font-face { font-family: "rambla-libro-webfont"; font-style: normal; font-weight: 400; src: url(../fonts/rambla/rambla-libro-webfont.eot); src: url("../fonts/rambla/rambla-libro-webfont.eot?#iefix") format("ie9-skip-eot"), url("../fonts/rambla/rambla-libro-webfont.woff") format("woff"), url("../fonts/rambla/rambla-libro-webfont.ttf") format("truetype"); }
+@font-face { font-family: "OpenSans-Regular-webfont"; font-style: normal; font-weight: 400; src: url(../fonts/open-sans/OpenSans-Regular-webfont.eot); src: url("../fonts/open-sans/OpenSans-Regular-webfont.eot?#iefix") format("ie9-skip-eot"), url("../fonts/open-sans/OpenSans-Regular-webfont.woff") format("woff"), url("../fonts/open-sans/OpenSans-Regular-webfont.ttf") format("truetype"); }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Open Sans"; font-weight: 300; color: #444444; text-rendering: optimizeLegibility; padding-top: 0.273em; line-height: 1.15538em; padding-bottom: 0.273em; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #d04526; }
