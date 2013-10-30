@@ -36,13 +36,13 @@
 }
 
 
-// // Rambla
-// @font-face {
-//   font-family: '#{$rambla}';
-//   font-style: normal;
-//   font-weight: 400;
-//   src: url(../fonts/rambla/#{$rambla}.eot);
-//   src: url('../fonts/rambla/#{$rambla}.eot?#iefix') format('ie9-skip-eot'),
-//        url('../fonts/rambla/#{$rambla}.woff') format('woff'),
-//        url('../fonts/rambla/#{$rambla}.ttf')  format('truetype');
-// }
+// // Open Sans
+@font-face {
+  font-family: '#{$open-sans}';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/open-sans/#{$open-sans}.eot);
+  src: url('../fonts/open-sans/#{$open-sans}.eot?#iefix') format('ie9-skip-eot'),
+       url('../fonts/open-sans/#{$open-sans}.woff') format('woff'),
+       url('../fonts/open-sans/#{$open-sans}.ttf')  format('truetype');
+}
