@@ -9,6 +9,10 @@ body,h1,h2,h3,h4,h5,h6,p,a {
   color: #ecf0f1;
 }
 
+body {
+  background: #e67e22;
+}
+
 a {
   color: #bdc3c7;
 }
@@ -232,6 +236,18 @@ aside {
   height: 40px;
   background-size: contain;
   font-size: 1.8em;
+}
+
+/* Big triangle with shadow */
+
+#trianglePath1 {
+  fill: #8e44ad;
+  stroke: #8e44ad;
+}
+
+#trianglePath2 {
+  fill: darken(#8e44ad,10%);
+  stroke: darken(#8e44ad,10%);
 }
 
 
