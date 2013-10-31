@@ -172,13 +172,19 @@ aside {
 #features {
   min-height: 768px;
   text-align: center;
+  padding-bottom: 4em;
 
   i {
     display: block;
+    font-size: $xlarge;
+    padding-bottom: 20px;
   }
 
   li {
-    padding-top: 30px;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    font-size: $large;
+
   }
 
   p {

@@ -2645,9 +2645,9 @@ aside { width: 31.91489%; }
 #about h2 { text-align: center; padding-top: 60px; padding-bottom: 40px; }
 #about li { font-size: 1.2em; padding-top: 20px; padding-bottom: 20px; text-align: left; }
 
-#features { min-height: 768px; text-align: center; }
-#features i { display: block; }
-#features li { padding-top: 30px; }
+#features { min-height: 768px; text-align: center; padding-bottom: 4em; }
+#features i { display: block; font-size: 42px; padding-bottom: 20px; }
+#features li { padding-top: 4em; padding-bottom: 2em; font-size: 26px; }
 #features p { text-align: left; }
 
 #footer h6 { font-family: "mathlete-bulky-webfont"; font-size: 1.9em; }
