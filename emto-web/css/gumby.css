@@ -37,7 +37,7 @@ section { *zoom: 1; }
 section:before, section:after { content: ""; display: table; }
 section:after { clear: both; }
 
-article, aside, .parallax-image { margin-left: 2.12766%; float: left; min-height: 1px; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+article, aside { margin-left: 2.12766%; float: left; min-height: 1px; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 .pull_right { float: right; }
 
@@ -2626,7 +2626,7 @@ aside { width: 31.91489%; }
 
 .footer-container { background-color: #34495e; cursor: default; }
 
-#global-nav { margin-bottom: 0; background-color: #9b59b6; }
+#navbar-main-nav { margin-bottom: 0; background-color: #9b59b6; }
 
 #intro { text-align: center; }
 #intro a { font-size: 26px; }
@@ -2651,14 +2651,11 @@ aside { width: 31.91489%; }
 #footer h6 { font-family: "mathlete-bulky-webfont"; font-size: 1.9em; }
 #footer li { text-align: center; display: inline; }
 
-.example-grid .parallax { width: 100%; height: 300px; background-image: url(../img/totem_01.jpg); }
-
-.parallax { background-attachment: fixed !important; }
-
-.parallax-image { width: 82.97872%; }
-@media only screen and (max-width: 767px) { .parallax-image { float: left; margin-left: 0; width: 100%; } }
+.example-grid .parallax { width: 100%; height: 300px; background-image: url(file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/totem_02.jpg); }
 
 #flexible { background: url(../img/bg_phone.png) no-repeat right bottom; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; transition-duration: 0.5s; }
+
+.arrow { position: fixed; bottom: 0; left: 50%; margin-left: -20px; width: 40px; height: 40px; background-size: contain; font-size: 1.8em; }
 
 @-webkit-keyframes bounce { 0%, 20%, 50%, 80%, 100% { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
   40% { -webkit-transform: translateY(-30px); -moz-transform: translateY(-30px); -ms-transform: translateY(-30px); transform: translateY(-30px); }
@@ -2676,6 +2673,8 @@ aside { width: 31.91489%; }
   40% { -webkit-transform: translateY(-30px); -moz-transform: translateY(-30px); -ms-transform: translateY(-30px); transform: translateY(-30px); }
   60% { -webkit-transform: translateY(-15px); -moz-transform: translateY(-15px); -ms-transform: translateY(-15px); transform: translateY(-15px); } }
 
-.arrow { position: fixed; bottom: 0; left: 50%; margin-left: -20px; width: 40px; height: 40px; background-size: contain; font-size: 1.8em; }
-
 .bounce { -webkit-animation: bounce 10s infinite; -moz-animation: bounce 10s infinite; -ms-animation: bounce 10s infinite; animation: bounce 10s infinite; }
+
+.parallax { background-attachment: fixed !important; }
+
+.oldie .parallax, .ie9 .parallax { background-attachment: static !important; }
