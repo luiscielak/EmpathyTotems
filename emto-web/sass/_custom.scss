@@ -211,17 +211,18 @@ aside {
 .example-grid .parallax {
   width: 100%;
   height: 300px;
-  background-image: url(file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/totem_01.jpg);
+  background-image: url(file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/totem_02.jpg);
   // background-image: url(../img/totem_01.jpg);
 }
 
 
 .parallax {
-  background-attachment: fixed !important;
+  // background-attachment: scroll !important;
+  // background-attachment: fixed !important;
 }
 
 .parallax-image {
-  @include column(10);
+  // @include column(10);
 }
 
 
