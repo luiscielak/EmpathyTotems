@@ -216,16 +216,6 @@ aside {
 }
 
 
-.parallax {
-  // background-attachment: scroll !important;
-  // background-attachment: fixed !important;
-}
-
-.parallax-image {
-  // @include column(10);
-}
-
-
 #flexible {
   background: url(../img/bg_phone.png) no-repeat right bottom;
   -webkit-transition-duration: 0.5s;
@@ -234,6 +224,21 @@ aside {
   transition-duration: 0.5s;
 }
 
+.arrow {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left:-20px;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  font-size: 1.8em;
+}
+
+
+///////////////
+// ANIMATION //
+///////////////
 
 
 @mixin keyframes($name) {
@@ -275,17 +280,6 @@ aside {
   }
 }
 
-
-.arrow {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  margin-left:-20px;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  font-size: 1.8em;
-}
 
 .bounce {
   @include animation(bounce 10s infinite);
