@@ -44,19 +44,19 @@ $asbestos:      #7f8c8d;
 //////////
 
 body,h1,h2,h3,h4,h5,h6,p,a {
-  color: $clouds;
+  // color: $clouds;
 }
 
 body {
-  background: $carrot;
+  // background: $carrot;
 }
 
 a {
-  color: $silver;
+  // color: $silver;
 }
 
 a:hover {
-  color: $clouds;
+  // color: $clouds;
   -webkit-transition-duration: 0.7s;
   -moz-transition-duration: 0.7s;
   -o-transition-duration: 0.7s;
@@ -74,7 +74,7 @@ h5 {
 }
 
 li {
-  list-style: none;
+  // list-style: none;
 }
 
 
@@ -352,3 +352,4 @@ aside {
   padding-bottom: 10px;
   opacity: 0.8;
 }
+
