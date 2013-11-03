@@ -27,6 +27,10 @@ $mathlete: "mathlete-bulky-webfont";
 $rambla: "rambla-libro-webfont";
 $open-sans: "OpenSans-Regular-webfont";
 
+$primary-font-family: $mathlete;
+$secondary-font-family: $rambla;
+
+
 // Font Weights
 $font-weight-bold: 700;
 $font-weight-semibold: 600;
@@ -83,21 +87,21 @@ $global-bg-color: #fff;
 $navbar-color: #9b59b6; // #4a4d50;
 $navbar-link-color: #fff;
 
-$primary-color: #3085d6;
-$secondary-color: #42a35a;
-$default-color: #f2f2f2;
-$info-color: #4a4d50;
-$danger-color: #ca3838;
-$warning-color: #f6b83f;
-$success-color: #58c026;
+$primary-color: #8e44ad;  // #3085d6;
+$secondary-color: #d35400;  // #42a35a;
+$default-color: #f2f2f2;  // #f2f2f2;
+$info-color: #4a4d50; // #4a4d50;
+$danger-color: #ca3838; // #ca3838;
+$warning-color: #f6b83f;  // #f6b83f;
+$success-color: #27ae60;  // #58c026;
 
-$primary-hover-color: #58b2fa;
-$secondary-hover-color: #6dbb80;
-$default-hover-color: #ffffff;
-$info-hover-color: #868d92;
-$danger-hover-color: #f14f4f;
-$warning-hover-color: #fdd27f;
-$success-hover-color: #66d92f;
+$primary-hover-color: #9b59b6;  // #58b2fa;
+$secondary-hover-color: #f39c12;  // #6dbb80;
+$default-hover-color: #ffffff;  // #ffffff;
+$info-hover-color: #868d92; // #868d92;
+$danger-hover-color: #f14f4f; // #f14f4f;
+$warning-hover-color: #fdd27f;  // #fdd27f;
+$success-hover-color: #2ecc71;  // #66d92f;
 
 $horizontal-rule-color: #ccc !default;
 
@@ -165,7 +169,7 @@ $tt-min-width: 130px;
 $tt-bgcolor: $primary-color;
 $tt-position: top;					// position: top / bottom / left / right
 $tt-align: left;					// text and caret alignment: left / right
-$tt-pretty: yes;					// yes = pretty / no = flat
+$tt-pretty: no;					// yes = pretty / no = flat
 
 // Floats
 $default-float: left;
