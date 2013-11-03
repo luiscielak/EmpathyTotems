@@ -2596,6 +2596,12 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 
 .ie9 .radio.checked i, .ie9 .checkbox.checked i { top: 0; }
 
+body, h1, h2, h3, h4, h5, h6, p, a { color: #ecf0f1; }
+
+body { background: #e67e22; }
+
+a { color: #bdc3c7; }
+
 a:hover { -webkit-transition-duration: 0.7s; -moz-transition-duration: 0.7s; -o-transition-duration: 0.7s; transition-duration: 0.7s; }
 
 h2 { padding-top: 30px; }
