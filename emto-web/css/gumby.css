@@ -2684,6 +2684,8 @@ aside { width: 31.91489%; }
 
 .primary-heading { font-family: "mathlete-bulky-webfont"; }
 
+#web-emto-ui body { background-color: red !important; }
+
 .parallax { background-attachment: fixed !important; }
 
 .oldie .parallax, .ie9 .parallax { background-attachment: static !important; }
