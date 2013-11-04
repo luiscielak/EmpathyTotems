@@ -110,15 +110,20 @@
 <!-- Sliders -->
 
 <div class="row">
-	<h1 class="lead">Sliders</h1>
-	<div id="ui-slider">
-		<form action="">
-			<input type="range" name="" min="1" max="10">
-		</form>
-	</div>
 
-	<div id="vardiv">__ </div>
+	<h1 class="lead">Sliders</h1>
+	<div class="columns six">
+		<div id="ui-slider">
+			<form action="">
+				<input type="range" onchange="updateSlider(this.value);" name="" min="1" max="10">
+			</form>
+		</div>
+
+		<div id="ui-slider-value">__ </div>
+	</div>
 </div>
+
+
 
 
 
