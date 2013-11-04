@@ -373,7 +373,14 @@ aside {
   font-family: $primary-font-family;
 }
 
+.secondary-heading {
+  font-family: $secondary-font-family;
+}
 
+
+.default-heading {
+  font-family: $font-family;
+}
 
 
 // Sliders
@@ -389,12 +396,21 @@ input[type="range"]{
 
 input[type="range"]::-webkit-slider-thumb:hover,
 input[type="range"]::-webkit-slider-thumb:active{
-  border: 1px solid #53d76a;
+  border: 2px solid lighten($body-link-hover-color,20%);
   background-color: darken($white,1%);
+  @include transition-duration(0.7);
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+  @include transition-duration(0.7);
+  background-color: darken($white,5%);
 }
 
 
 input[type="range"]::-webkit-slider-thumb{
+ -webkit-transition: all .2s ease-in-out;
+
+  // @include transition-duration(0.7);
   -webkit-appearance: none !important;
   cursor: pointer;
   border-radius: 4px;

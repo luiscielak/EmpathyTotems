@@ -57,6 +57,18 @@
 	.smallify { font-size: 13px; }
 	.modal h2, .modal .btn { margin: 5% 0 20px; }
 	.ttip.example { float: left; background: #eee; border: 1px dotted #ccc; padding: 20px; }
+
+	#ui-typography .columns h1,h2,h3,h4,h5,h6  {
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	#ui-typography .columns h4 {
+		margin-top: 2px;
+		margin-bottom: 2px;
+
+	}
+
 </style>
 
 <body i="web-emto-ui">
@@ -77,13 +89,17 @@
 		<div class="row">
 			<a class="toggle" gumby-trigger="#nav1 > .row > ul" href="#"><i class="icon-menu"></i></a>
 			<h1 class="four columns logo">
-				<a href="#">
+				<a href="index.html">
 					<img src="img/logo.svg" gumby-retina />
 				</a>
 			</h1>
 			<ul class="eight columns">
-				<li><a href="#">About</a></li>
+				<li><a href="http://blog.empathytotems.com" target="_blank">Blog</a></li>
+				<li><a href="ui.html">UI</a></li>
 				<li><a href="#">Login</a></li>
+				<li><a href="#">Sign up</a></li>
+				<!-- <li><a href="#">About</a></li> -->
+				<!-- <li><a href="#">Login</a></li> -->
 			</ul>
 		</div>
 	</div>
@@ -95,100 +111,128 @@
 
 <div class="row">
 	<h1 class="lead">Sliders</h1>
-	<form action="">
-		<input type="range" name="" min="1" max="10">
-	</form>
+	<div id="ui-slider">
+		<form action="">
+			<input type="range" name="" min="1" max="10">
+		</form>
+	</div>
+
+	<div id="vardiv">__ </div>
 </div>
 
 
 
 <!-- Typography -->
-<div class="row">
-	<h1 class="lead">Typography</h1>
+<div id="ui-typography">
+	<div class="row">
+		<h1 class="lead">Typography</h1>
 
-	<div class="row">
-		<h1 class="primary-heading">Mathlete</h1>
-		<h2 class="primary-heading">Mathlete</h2>
-		<h3 class="primary-heading">Mathlete</h3>
-		<h4 class="primary-heading">Mathlete</h4>
-		<h5 class="primary-heading">Mathlete</h5>
-		<h6 class="primary-heading">Mathlete</h6>
-	</div>
+		<div class="row">
+			<div class="four columns">
+				<h4 class="lead">Primary Heading</h4>
+				<h1 class="primary-heading">Mathlete Bulky</h1>
+				<h2 class="primary-heading">Mathlete Bulky</h2>
+				<h3 class="primary-heading">Mathlete Bulky</h3>
+				<h4 class="primary-heading">Mathlete Bulky</h4>
+				<h5 class="primary-heading">Mathlete Bulky</h5>
+				<h6 class="primary-heading">Mathlete Bulky</h6>
+			</div>
 
-	<div class="row">
-		<div class="four columns">
-			<h4 class="lead">ul.disc</h4>
-			<ul class="disc">
-				<li>List item</li>
-				<li>List item</li>
-				<li>List item</li>
+			<!-- <br> -->
+
+			<div class="four columns">
+				<h4 class="lead">Secondary Heading</h4>
+				<h1 class="secondary-heading">Rambla</h1>
+				<h2 class="secondary-heading">Rambla</h2>
+				<h3 class="secondary-heading">Rambla</h3>
+				<h4 class="secondary-heading">Rambla</h4>
+				<h5 class="secondary-heading">Rambla</h5>
+				<h6 class="secondary-heading">Rambla</h6>
+			</div>
+
+			<!-- <br> -->
+
+			<div class="four columns">
+				<h4 class="lead fittext" gumby-rate="0.8" gumby-sizes="14|20">Default Paragraph</h4>
+				<!-- <h1 class="secondary-heading">Open Sans</h1> -->
+				<!-- <h2 class="secondary-heading">Open Sans</h2> -->
+				<h3 class="default-heading">Open Sans</h3>
+				<p class="default-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, quae, veniam, nostrum, sed eligendi ea corrupti in nulla autem perspiciatis beatae soluta neque possimus harum eius quibusdam ullam distinctio sapiente!</p>
+				<!-- <h5 class="secondary-heading">Open Sans</h5> -->
+				<!-- <h6 class="secondary-heading">Open Sans</h6> -->
+			</div>
+
+
+		</div>
+
+		<br>
+
+		<div class="row">
+			<div class="four columns">
+				<h4 class="lead">ul.disc</h4>
 				<ul class="disc">
-					<li>Nested item</li>
-					<li>Nested item</li>
+					<li>List item</li>
+					<li>List item</li>
+					<ul class="disc">
+						<li>Nested item</li>
+						<li>Nested item</li>
+					</ul>
+					<li>List item</li>
+					<li>List item</li>
+
 				</ul>
-				<li>List item</li>
-				<li>List item</li>
-				<li>List item</li>
-				<li>List item</li>
-			</ul>
-		</div>
-		<div class="four columns">
-			<h4 class="lead">ul.circle</h4>
-			<ul class="circle">
-				<li>List item</li>
-				<li>List item</li>
-				<li>List item</li>
-				<ul class="disc">
-					<li>Nested item</li>
-					<li>Nested item</li>
+			</div>
+			<div class="four columns">
+				<h4 class="lead">ul.circle</h4>
+				<ul class="circle">
+					<li>List item</li>
+					<li>List item</li>
+					<ul class="disc">
+						<li>Nested item</li>
+						<li>Nested item</li>
+					</ul>
+					<li>List item</li>
+					<li>List item</li>
+
 				</ul>
-				<li>List item</li>
-				<li>List item</li>
-				<li>List item</li>
-				<li>List item</li>
-			</ul>
-		</div>
-		<div class="four columns">
-			<h4 class="lead">ul.square</h4>
-			<ul class="square">
-				<li>List item</li>
-				<li>List item</li>
-				<li>List item</li>
-				<ul class="disc">
-					<li>Nested item</li>
-					<li>Nested item</li>
+			</div>
+			<div class="four columns">
+				<h4 class="lead">ul.square</h4>
+				<ul class="square">
+					<li>List item</li>
+					<li>List item</li>
+					<ul class="disc">
+						<li>Nested item</li>
+						<li>Nested item</li>
+					</ul>
+					<li>List item</li>
+					<li>List item</li>
 				</ul>
-				<li>List item</li>
-				<li>List item</li>
-				<li>List item</li>
-				<li>List item</li>
-			</ul>
+			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="four columns">
-			<h4 class="lead">ol</h4>
-			<ol>
-				<li>List item</li>
-				<li>List item</li>
-				<li>List item</li>
-				<ul class="disc">
-					<li>Nested item</li>
-					<li>Nested item</li>
-				</ul>
-				<li>List item</li>
-				<li>List item</li>
-				<li>List item</li>
-				<li>List item</li>
-			</ol>
+		<div class="row">
+			<div class="four columns">
+				<h4 class="lead">ol</h4>
+				<ol>
+					<li>List item</li>
+					<li>List item</li>
+					<ul class="disc">
+						<li>Nested item</li>
+						<li>Nested item</li>
+					</ul>
+					<li>List item</li>
+					<li>List item</li>
+				</ol>
+			</div>
+			<div class="eight columns">
+				<h4 class="lead">Definition list</h4>
+				<dl>
+					<dt>Definition Term</dt>
+					<dd>Definition text, you can add as many of these as you need. The line-height matches paragraphs.</dd>
+				</dl>
+			</div>
 		</div>
-		<div class="eight columns">
-			<h4 class="lead">Definition list</h4>
-			<dl>
-				<dt>Definition Term</dt>
-				<dd>Definition text, you can add as many of these as you need. The line-height matches paragraphs.</dd>
-			</dl>
-		</div>
+
 	</div>
 
 </div>
@@ -1150,6 +1194,8 @@
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
 
+	<!-- Custom Application JS -->
+	<script src="js/app.js"></script>
 
 	<!-- Change UA-XXXXX-X to be your site's ID -->
 	<script>
