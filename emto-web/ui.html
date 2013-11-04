@@ -106,34 +106,14 @@
 </div>
 
 
-
-<!-- Sliders -->
-
-<div class="row">
-
-	<h1 class="lead">Sliders</h1>
-	<div class="columns six">
-		<div id="ui-slider">
-			<form action="">
-				<input type="range" onchange="updateSlider(this.value);" name="" min="1" max="10">
-			</form>
-		</div>
-
-		<div id="ui-slider-value">__ </div>
-	</div>
-</div>
-
-
-
-
-
 <!-- Typography -->
 <div id="ui-typography">
 	<div class="row">
 		<h1 class="lead">Typography</h1>
 
+		<!-- Primary Heading -->
 		<div class="row">
-			<div class="four columns">
+			<div class="six columns">
 				<h4 class="lead">Primary Heading</h4>
 				<h1 class="primary-heading">Mathlete Bulky</h1>
 				<h2 class="primary-heading">Mathlete Bulky</h2>
@@ -143,9 +123,9 @@
 				<h6 class="primary-heading">Mathlete Bulky</h6>
 			</div>
 
-			<!-- <br> -->
 
-			<div class="four columns">
+			<!-- Secondary Heading -->
+			<div class="six columns">
 				<h4 class="lead">Secondary Heading</h4>
 				<h1 class="secondary-heading">Rambla</h1>
 				<h2 class="secondary-heading">Rambla</h2>
@@ -155,18 +135,14 @@
 				<h6 class="secondary-heading">Rambla</h6>
 			</div>
 
-			<!-- <br> -->
-
-			<div class="four columns">
-				<h4 class="lead fittext" gumby-rate="0.8" gumby-sizes="14|20">Default Paragraph</h4>
-				<!-- <h1 class="secondary-heading">Open Sans</h1> -->
-				<!-- <h2 class="secondary-heading">Open Sans</h2> -->
-				<h3 class="default-heading">Open Sans</h3>
-				<p class="default-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, quae, veniam, nostrum, sed eligendi ea corrupti in nulla autem perspiciatis beatae soluta neque possimus harum eius quibusdam ullam distinctio sapiente!</p>
-				<!-- <h5 class="secondary-heading">Open Sans</h5> -->
-				<!-- <h6 class="secondary-heading">Open Sans</h6> -->
+			<br>
+			<div class="row">
+				<div class="twelve columns">
+					<h4 class="lead">Default Paragraph</h4>
+					<h3 class="default-heading">Open Sans</h3>
+					<p class="default-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ducimus, quam illum nesciunt odio iste adipisci voluptatem a cupiditate ea blanditiis explicabo hic voluptas laborum eos labore pariatur! Animi, accusamus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, voluptatem quod quae ullam repudiandae dolorum cupiditate animi laborum sit. Eos, consectetur, excepturi dolorem sed ut a voluptas error suscipit laborum?</p>
+				</div>
 			</div>
-
 
 		</div>
 
@@ -301,8 +277,8 @@
 		</div>
 		<div class="four columns">
 			<h4 class="lead">Alerts</h4>
-			<li class="primary alert">KHAAAAAAAAAAAAAAANNNN!!!!</li>
-			<li class="secondary alert">We are the Silence. And Silence will fall!</li>
+			<!-- <li class="primary alert">KHAAAAAAAAAAAAAAANNNN!!!!</li> -->
+			<!-- <li class="secondary alert">We are the Silence. And Silence will fall!</li> -->
 			<li class="default alert">Fez's are cool.</li>
 			<li class="info alert">Don't blink. Blink and you're dead.</li>
 			<li class="danger alert">I’m sorry, Dave. I’m afraid I can’t do that.</li>
@@ -411,6 +387,7 @@
 		</div>
 	</div>
 	<div class="row">
+
 		<div class="four columns">
 			<h4 class="lead">Picker (&lt;select&gt;)</h4>
 			<form>
@@ -433,6 +410,22 @@
 				</ul>
 			</form>
 		</div>
+
+
+		<div class="four columns">
+			<h4 class="lead">Slider</h4>
+			<!-- <div class="columns six"> -->
+			<div id="ui-slider">
+				<form action="">
+					<input type="range" onchange="updateSlider(this.value);" value="5" name="ui-slider" min="0" max="10">
+				</form>
+				<!-- </div> -->
+
+				<div id="ui-slider-value">&nbsp;</div>
+			</div>
+		</div>
+
+
 		<div class="four columns">
 			<h4 class="lead">Radio Buttons</h4>
 			<form>
@@ -1155,6 +1148,23 @@
 			<li class="two columns"><i class="icon-db-shape"></i> db-shape</li>
 			<li class="two columns"><i class="icon-logo-db"></i> logo-db</li>
 		</ul>
+	</div>
+
+<br><br>
+
+	<!-- Footer -->
+	<div class="wrapper footer-container">
+		<section id="footer" class="row">
+			<div class="four columns">
+				<h6>&copy; 2013 Empathy Totems </h6>
+			</div>
+			<ul class="eight columns">
+				<li><a href="http://blog.empathytotems.com" target="_blank">Blog</a></li>
+				<li><a href="ui.html">UI</a></li>
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Sign up</a></li>
+			</ul>
+		</section>
 	</div>
 
 

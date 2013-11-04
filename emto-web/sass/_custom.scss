@@ -388,7 +388,8 @@ input[type="range"]{
   -webkit-appearance: none !important;
   outline: none;
   background-color: $silver;
-  width: 350px;
+  width: 100%;
+  // width: 350px;
   height: 10px;
   border-radius: 24px;
 
