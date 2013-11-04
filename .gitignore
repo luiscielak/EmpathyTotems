@@ -1,4 +1,4 @@
 .DS_Store
 app/db.php
 .sass-cache/
-
+codekit-config.json
