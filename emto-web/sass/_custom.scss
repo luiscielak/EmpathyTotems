@@ -423,3 +423,13 @@ input[type="range"]::-webkit-slider-thumb{
   width: 24px;
 }
 
+
+// Footer
+
+#nav-footer {
+  text-align: right;
+  padding-top: 13px;
+  li {
+    padding-right: 10px;
+  }
+}
