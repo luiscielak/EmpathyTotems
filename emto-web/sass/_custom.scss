@@ -135,6 +135,19 @@ h5 {
 }
 
 
+#content-features-a {
+  background-color: adjust-hue($amethyst,90deg);
+}
+
+#content-features-b {
+ background-color: adjust-hue($amethyst,180deg);
+}
+
+#content-features-c {
+ background-color: adjust-hue($amethyst,270deg);
+}
+
+
 
 // Containers
 .container {
@@ -160,33 +173,6 @@ h5 {
   @include background-image(linear-gradient($peter-river,$belize-hole));
 }
 
-
-
-
-// DEPRECATE ->
-
-.intro-container {
-  @extend .container;
-  @include background-image(linear-gradient($amethyst,$wisteria));
-  // min-height: 100%;
-  // position: relative;
-}
-
-.about-container {
-  @extend .container;
-  @include background-image(linear-gradient($carrot,$pumpkin));
-  // min-height: 100%;
-  // position: relative;
-}
-
-.features-container {
-  @extend .container;
-  @include background-image(linear-gradient($peter-river,$belize-hole));
-  // min-height: 100%;
-  // position: relative;
-}
-
-// <- DEPRECATE
 
 .footer-container {
   background-color: $wet-asphalt;
@@ -413,7 +399,6 @@ h5 {
   padding-bottom: 50px;
   opacity: 0.8;
 }
-
 
 
 
