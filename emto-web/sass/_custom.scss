@@ -5,6 +5,10 @@
 // COLORS //
 ////////////
 
+
+// Color Swatches
+// --------------------------------------------------
+
 $turquoise:     #1abc9c;
 $green-sea:     #16a085;
 
@@ -49,6 +53,7 @@ body,h1,h2,h3,h4,h5,h6, a {
 
 body {
   background: $carrot;
+  background-color: $default-color;
 }
 
 a {
@@ -72,54 +77,116 @@ h5 {
   padding-bottom: 30px;
 }
 
-li {
-  // list-style: none;
-}
 
 
 //////////
 // GRID //
 //////////
 
-section {
-  @include row();
-}
+// section {
+//   @include row();
+// }
 
-article {
-  @include column(10, 'center');
-}
+// article {
+//   @include column(10, 'center');
+// }
 
-aside {
-  @include column(4);
-}
+// aside {
+//   @include column(4);
+// }
 
-////////////
-// LAYOUT //
-////////////
+
+/////////////
+// REGIONS //
+/////////////
 
 .wrapper {
   // background-color: gray;
 }
 
-.intro-container {
-  @include background-image(linear-gradient($amethyst,$wisteria));
-  min-height: 100%;
-  position: relative;
+// Footer
+#nav-footer {
+  text-align: right;
+  padding-top: 13px;
+  li {
+    padding-right: 10px;
+  }
+}
 
+// Content
+#content-landing {
+  background-color: $amethyst;
+}
+
+#content-intro {
+  background-color: darken($amethyst,5%);
+}
+
+#content-features {
+  background-color: darken($amethyst,10%);
+}
+
+#content-signup {
+  background-color: darken($amethyst,15%);
+}
+
+#content-outro {
+  background-color: darken($amethyst,20%);
+}
+
+
+
+// Containers
+.container {
+  // min-height: 100%;
+  min-height: 768px;
+  position: relative;
+  background-color: red;
+}
+
+
+.container-intro {
+  @extend .container;
+  @include background-image(linear-gradient($amethyst,$wisteria));
+}
+
+.container-about {
+  @extend .container;
+  @include background-image(linear-gradient($carrot,$pumpkin));
+}
+
+.container-features {
+  @extend .container;
+  @include background-image(linear-gradient($peter-river,$belize-hole));
+}
+
+
+
+
+// DEPRECATE ->
+
+.intro-container {
+  @extend .container;
+  @include background-image(linear-gradient($amethyst,$wisteria));
+  // min-height: 100%;
+  // position: relative;
 }
 
 .about-container {
+  @extend .container;
   @include background-image(linear-gradient($carrot,$pumpkin));
-  min-height: 100%;
-  position: relative;
+  // min-height: 100%;
+  // position: relative;
 }
 
 .features-container {
+  @extend .container;
   @include background-image(linear-gradient($peter-river,$belize-hole));
-  min-height: 100%;
-  position: relative;
+  // min-height: 100%;
+  // position: relative;
 }
 
+// <- DEPRECATE
 
 .footer-container {
   background-color: $wet-asphalt;
@@ -127,19 +194,18 @@ aside {
 }
 
 
-/////////
-// NAV //
-/////////
+// Navigation
+// ----------------------
 
 #navbar-main-nav {
   margin-bottom: 0;
   background-color: $amethyst;
 }
 
-///////////
-// INTRO //
-///////////
 
+
+// Intro
+// ----------------------
 
 #intro {
   text-align: center;
@@ -152,23 +218,9 @@ aside {
   }
 }
 
-.skiplink {
-  background-color: transparent;
-
-  a {
-    color: $silver;
-    @include transition-duration(0.7s);
-
-  }
-
-  a:hover {
-    color: $body-link-hover-color;
-    @include transition-duration(0.7s);
-  }
-}
 
 .intro-text {
-  // margin-top: 80px;
+  text-align: center;
 
   h1 {
     font-size: 9em;
@@ -195,12 +247,11 @@ aside {
 }
 
 
-///////////
-// ABOUT //
-///////////
+// About
+// ----------------------
 
 #about {
-  min-height: 768px;
+  // min-height: 768px;
 
   h2 {
     text-align: center;
@@ -217,12 +268,11 @@ aside {
 }
 
 
-//////////////
-// FEATURES //
-//////////////
+// Features
+// ----------------------
 
 #features {
-  min-height: 768px;
+  // min-height: 768px;
   text-align: center;
   padding-bottom: 4em;
 
@@ -245,9 +295,8 @@ aside {
 
 }
 
-////////////
-// FOOTER //
-////////////
+// Footer
+// ----------------------
 
 #footer {
 
@@ -265,11 +314,27 @@ aside {
 
 
 
+/////////////
+// MODULES //
+/////////////
 
-///////////////
-// ANIMATION //
-///////////////
+// Icons
+// ----------------------
 
+.arrow {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left:-20px;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  font-size: 1.8em;
+}
+
+
+// Animation
+// ----------------------
 
 @mixin keyframes($name) {
   @-webkit-keyframes #{$name} {
@@ -316,17 +381,51 @@ aside {
 }
 
 
-
-///////////
-// HACKS //
-///////////
-
+// Parallax
+// ----------------------
 
 .example-grid .parallax {
   width: 100%;
   height: 300px;
   background-image: url(../img/totem_02.jpg);
 }
+
+
+
+// Diagrams
+// ----------------------
+
+
+
+// Sliders
+// ----------------------
+
+
+// Skiplins
+// ----------------------
+
+.skiplink {
+  background-color: transparent;
+
+  a {
+    color: $silver;
+    @include transition-duration(0.7s);
+
+  }
+
+  a:hover {
+    color: $body-link-hover-color;
+    @include transition-duration(0.7s);
+  }
+}
+
+
+
+
+///////////
+// HACKS //
+///////////
+
 
 
 #flexible {
@@ -337,19 +436,8 @@ aside {
   transition-duration: 0.5s;
 }
 
-.arrow {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  margin-left:-20px;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  font-size: 1.8em;
-}
 
 /* Big triangle with shadow */
-
 #trianglePath1 {
   fill: $wisteria;
   stroke: $wisteria;
@@ -360,7 +448,7 @@ aside {
   stroke: darken($wisteria,10%);
 }
 
-
+/* Diagram system illustration */s
 .diagram-system {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -369,6 +457,7 @@ aside {
 
 
 // Headings
+// ----------------------
 .primary-heading {
   font-family: $primary-font-family;
 }
@@ -424,12 +513,3 @@ input[type="range"]::-webkit-slider-thumb{
 }
 
 
-// Footer
-
-#nav-footer {
-  text-align: right;
-  padding-top: 13px;
-  li {
-    padding-right: 10px;
-  }
-}
