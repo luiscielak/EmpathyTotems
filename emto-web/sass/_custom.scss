@@ -344,6 +344,8 @@ h5 {
 
 
 
+
+
 // Animation
 // ----------------------
 
@@ -406,6 +408,13 @@ h5 {
 // Diagrams
 // ----------------------
 
+.diagram-system {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  opacity: 0.8;
+}
+
+
 
 
 // Sliders
@@ -457,13 +466,6 @@ h5 {
 #trianglePath2 {
   fill: darken($wisteria,10%);
   stroke: darken($wisteria,10%);
-}
-
-/* Diagram system illustration */s
-.diagram-system {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  opacity: 0.8;
 }
 
 
