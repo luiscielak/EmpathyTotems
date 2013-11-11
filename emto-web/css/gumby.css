@@ -2709,6 +2709,14 @@ input[type="range"]::-webkit-slider-thumb { -webkit-transition: all .2s ease-in-
 
 .default-heading { font-family: "Open Sans"; }
 
+.come-in { transform: translateY(150px); animation: come-in 0.8s ease forwards; }
+
+.come-in:nth-child(odd) { animation-duration: 0.6s; }
+
+.already-visible { transform: translateY(0); animation: none; }
+
+@keyframes come-in { to { transform: translateY(0); } }
+
 .parallax { background-attachment: fixed !important; }
 
 .oldie .parallax, .ie9 .parallax { background-attachment: static !important; }
