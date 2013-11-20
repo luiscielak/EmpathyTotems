@@ -1,4 +1,4 @@
-[Table of Contents](../README.md)
+Table of Contents
 ===
 
 [Abstract](abstract.md)
