@@ -1,15 +1,32 @@
-Empathy Totems
+[Table of Contents](../README.md)
 ===
 
-> Human Communication Sculptures
+[Abstract](abstract.md)
 
-Submitted in partial fulfillment of the requirements for the degree of Master of Science in Interactive Design and Media
+[Overview](overview.md)
 
-School of Design and Engineering
+[Related Prior Work](related-work.md)  
+_Quantified-Self_  
+_Life-Logging_  
+_Digital Fabrication_  
+_Information Visualization_  
 
-Philadelphia University
+[Product](product.md)  
+_Features_  
+_Implementation Roadmap_  
+_Needs and Opportunities_  
+_Personas_  
+_Business Goals_  
+_SWOT Analysis_  
+_Branding_  
 
+[Process and Methodology](process.md)  
+_Material_  
+_Representation_  
 
-Luis Cielak
+[Outcomes and Implications](outcome.md)
 
-Spring 2014
+[Appendix 1: User Interface (UI) Wireframes](apx.md)  
+[Appendix 2: Entity Relationship Diagram (ERD)](apx.md)
+
+[Bibliography](bib.md)

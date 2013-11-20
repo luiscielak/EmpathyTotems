@@ -1,7 +1,15 @@
-## Empathy Totems
+Empathy Totems
+===
 
-> The world's first smart totem to track, analyze and represent emotion data.
-> Let's improve the quality of human lifeform.
+> Human Communication Sculptures
+
+Submitted in partial fulfillment of the requirements for the degree of Master of Science in Interactive Design and Media
+
+School of Design and Engineering
+
+Philadelphia University
 
 
+Luis Cielak
 
+Spring 2014
