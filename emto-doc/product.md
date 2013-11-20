@@ -1,17 +1,23 @@
-Product
+[Product](toc.md)
 ===
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, provident, amet, earum tempore debitis error iusto sed dolorem eos blanditiis facilis totam obcaecati quaerat eum fugiat quisquam officia nisi molestiae.
+
+- - -
 
 Features
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident facilis iusto officia culpa eos aliquam magni a illum! Repellendus ab eum sed placeat earum cupiditate laborum quibusdam deserunt et enim.
 
+- - -
+
 Implementation Roadmap
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, doloribus, harum, ipsum repudiandae delectus inventore ducimus consequuntur nobis eius iusto modi perferendis veritatis voluptatibus beatae pariatur voluptate ratione nemo ipsa!
+
+- - -
 
 Needs and Opportunities
 ---
@@ -20,7 +26,13 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, enim, voluptati
 
 ### Needs
 
-### Opportunity
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, corrupti, aliquam nam sapiente vitae laboriosam neque eum debitis dolorem inventore. Facilis cumque minima maiores natus nobis architecto doloribus amet ipsam.
+
+### Opportunities
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quasi ipsum repellat expedita ab cum maiores accusamus et commodi molestiae! Pariatur sed dolor corporis reiciendis earum omnis adipisci recusandae. Cumque.
+
+- - -
 
 Personas
 ---
@@ -122,20 +134,52 @@ Purpose:
 
   To display the struggle of every-day people when trying to focus and communicate in a working environment. People surrounded by distractions and poor means of non-verbal communication are a cause of friction for the every-day working Joe.
 
-
+- - -
 
 Business Goals
 ---
 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, aspernatur, similique, debitis, cupiditate sunt dolores nobis officiis expedita maxime obcaecati suscipit dicta optio minus in praesentium provident distinctio minima quia?
+
+- - -
+
 SWOT Analysis
 ---
 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nobis, dolor, minima, cupiditate ratione adipisci voluptatum autem numquam quas expedita reprehenderit enim pariatur inventore iste sequi facilis ex atque placeat.
+
 ### Strengths
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, inventore, provident, et, tempore vero aliquam unde ut modi ab deleniti eligendi doloremque earum eum impedit consequatur magnam architecto aut. Perferendis?
+
 ### Weaknesses
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, dolor fugiat non perspiciatis excepturi id accusantium tempora ad nesciunt odit tenetur nulla aliquid quia! Sunt, quisquam dignissimos nisi iste ducimus.
+
 ### Opportunities
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, obcaecati cumque voluptates reiciendis amet explicabo distinctio deleniti cum quaerat quasi quidem molestiae laudantium dolorum qui voluptas aperiam earum! Enim, eius!
+
 ### Threads
 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quisquam, eius, id, distinctio cumque sunt aspernatur placeat culpa quibusdam sapiente explicabo numquam sed sit iusto debitis iure quod ut eaque?
+
+
+- - -
 
 Branding
 ---
 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, molestias, aspernatur, atque doloribus laborum ducimus voluptatibus labore impedit expedita veritatis similique necessitatibus magni facilis quas dolorum. Quisquam, ullam ipsam itaque!
+
+### Logo
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perferendis laudantium optio vel consequuntur illum dolorum unde doloremque? Nihil, laudantium totam officia nobis ad sed esse nemo soluta praesentium consequuntur.
+
+### Typography
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, nostrum, nemo quae perspiciatis corporis dolores error tenetur obcaecati voluptatibus ab quo aperiam vitae. Obcaecati veniam animi nobis rem atque ea.
+
+### Colors
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, voluptatibus, odio voluptate maxime ad assumenda libero dicta quos dolorum iure nam magnam fuga minima voluptates maiores illum in quaerat doloribus!
