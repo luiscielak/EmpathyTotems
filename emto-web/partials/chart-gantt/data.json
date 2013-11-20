@@ -1,0 +1,96 @@
+[
+   {
+      "name":"Research",
+      "values":[
+         {
+            "from date":"jan-2000",
+            "to date":"jun-2002",
+            "Role":"VP of Product",
+            "Company":"A Company"
+         },
+         {
+            "from date":"jun-2002",
+            "to date":"apr-2004",
+            "Role":"CEO",
+            "Company":"B Company"
+         },
+         {
+            "from date":"apr-2004",
+            "to date":"jun-2013",
+            "Role":"CEO",
+            "Company":"C Company"
+         }
+      ]
+   },
+
+
+   {
+      "name":"Design",
+      "values":[
+         {
+            "from date":"jan-2001",
+            "to date":"jun-2005",
+            "Role":"VP of Product",
+            "Company":"C Company"
+         },
+         {
+            "from date":"jun-2005",
+            "to date":"july-2006",
+            "Role":"CEO",
+            "Company":"D Company"
+         },
+         {
+            "from date":"july-2006",
+            "to date":"jun-2013",
+            "Role":"CEO",
+            "Company":"A Company"
+         }
+      ]
+   },
+
+
+   {
+      "name":"Build",
+      "values":[
+         {
+            "from date":"jan-2010",
+            "to date":"jun-2025",
+            "Role":"VP of Product",
+            "Company":"C Company"
+         },
+         {
+            "from date":"jun-2015",
+            "to date":"july-2016",
+            "Role":"CEO",
+            "Company":"D Company"
+         },
+         {
+            "from date":"july-2016",
+            "to date":"jun-2015",
+            "Role":"CEO",
+            "Company":"A Company"
+         }
+      ]
+   },
+
+
+   {
+      "name":"Test",
+      "values":[
+         {
+            "from date":"jun-2025",
+            "to date":"july-2036",
+            "Role":"CEO",
+            "Company":"D Company"
+         },
+         {
+            "from date":"july-2026",
+            "to date":"jun-2027",
+            "Role":"CEO",
+            "Company":"A Company"
+         }
+      ]
+   }
+
+
+]
