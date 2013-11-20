@@ -33,164 +33,926 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-<!-- We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
-	However, there is a blank style.css in the css directory should you prefer -->
 	<link rel="stylesheet" href="css/gumby.css">
-	<!-- <link rel="stylesheet" href="css/style.css"> -->
+
+
+	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> -->
 
 	<script src="js/libs/modernizr-2.6.2.min.js"></script>
+	<script src="js/libs/jquery-2.0.2.min.js"></script>
+
+	<script src="js/app.js"></script>
+
+
 </head>
 
 
 <body>
 
-	<!-- Global Nav -->
-	<nav id="navbar-main-nav" class="navbar">
-		<!-- <nav id="global-nav" class="navbar row"> -->
-		<div class="row">
-			<span class="twelve columns logo">
-				<a href="#">
-					<img src="/../../img/logo.svg" gumby-retina />
-					<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/logo.svg" gumby-retina /> -->
-				</a>
-			</span>
-		</div>
-	</nav>
 
+	<!-- Landing -->
+	<div class="wrapper">
+		<section id="content-landing" class="container">
+			<article class="container-header">
+				<!-- <h1>landing</h1> -->
+			</article>
+
+			<div class="row">
+				<article class="container-main ten columns centered">
+
+					<div class="intro-text">
+						<h1>Empathy Totems</h1>
+						<div class="intro-headline ">
+							<h4>human communication sculptures</h4>
+						</div>
+					</div>
+
+					<article class="intro-action eight columns centered">
+						<h4 class="skiplink">
+							<a  href="#" gumby-goto="#content-intro" gumby-offset="-20">Get Started with Empathy Totems <br><br>
+								<i class="arrow icon-down-open-big"></i>
+							</a>
+						</h4>
+					</article>
+
+				</article>
+			</div>
+		</section>
+	</div>
 
 
 	<!-- Intro -->
-	<div class="wrapper intro-container">
-		<section id="intro">
+	<div class="wrapper">
+		<section id="content-intro" class="container">
 
-			<article class="intro-text">
-				<h1>Empathy Totems</h1>
-				<div class="intro-headline">
-					<h4>human communication sculptures</h4>
+			<article class="container-header">
+				<div class="parallax-image">
+					<div class="example-grid">
+						<div class="parallax" gumby-parallax="1.5" sstyle="background-position: 10%;"></div>
+					</div>
 				</div>
-			</article>
-
-			<article class="intro-action">
-				<p class="skiplink">
-					<a  href="#" gumby-goto="#about" gumby-offset="-90">Get Started with Empathy Totems <br>
-						<i class="arrow icon-down-open-big"></i>
-					</a>
-				</p>
-			</article>
-
-		</section>
-	</div>
-
-
-	<svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
-		<path id="trianglePath1" d="M0 0 L50 100 L100 0 Z" />
-		<path id="trianglePath2" d="M50 100 L100 40 L100 0 Z" />
-	</svg>
-
-	<!-- About -->
-	<div class="wrapper about-container">
-		<section id="about">
-			<article>
-				<h2>System Feedback Loop</h2>
-
-				<img class="diagram-system" src="/../img/emto_system-loop.svg" alt="Empathy Totems system feedback loop">
-
-				<li><strong>Self-actualization</strong> of current emotional climate</li>
-				<li><strong>Understanding</strong> and communication of our own emotional stream</li>
-				<li><strong>Recognition</strong> of external emotions experienced by others around us</li>
-				<li><strong>Relate</strong> ourselves to the feelings of others and provide compassion</li>
-			</article>
-
-		</section>
-	</div>
-
-
-	<!-- Features -->
-	<div class="wrapper features-container">
-		<section id="features">
-			<article>
-				<h2>Product Features</h2>
-				<h5>A non-verbal communication tool for people.</h5>
 
 			</article>
+			<div class="row">
+				<article class="container-main">
+					<div class="ten columns">
+						<h2>A non-verbal communication <br> tool for people.</h2>
 
-			<article class="parallax-image">
-				<div class="example-grid">
-					<div class="parallax" gumby-parallax="0.5" sstyle="background-position: 50%;"></div>
+						<div class="default large btn skiplink"><a href="#" gumby-goto="#content-features" gumpy-offset="-600">Learn More! </a></div>
+
+						<br><br>
+					</div>
+					<div class="eight columns centered">
+
+
+
+						<img src="/../../img/gif/emto_env_01.gif"/>
+						<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/emto_env_01.gif"/> -->
+
+
+					</div>
+
+				</article>
+
+			</article>
+		</div>
+		<br><br><br><br>
+	</section>
+
+</div>
+
+
+<!-- Features -->
+<div class="wrapper">
+	<section id="content-features" class="container">
+		<article class="container-header">
+			<h1>features</h1>
+		</article>
+		<article class="container-main">
+			<div class="row">
+				<div class="twelve columns centered">
+					<h2>
+						Empathy Totems consists of an  app to <strong>track yourself</strong> <i class="icon-mobile"></i>, a secured local repository so you can <strong> control your data</strong> <i class="icon-cloud"></i>, and a physical totem structure for endless ways to <strong>express yourself</strong> <i class="icon-light-up"></i>.
+					</h2>
+
+					<br><br>
+
+					<div id="content-diagram" class="eight columns centered">
+
+
+						<!-- <img class="diagram-system" src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/emto_system-loop.svg" alt="Empathy Totems system feedback loop"> -->
+						<img class="diagram-system" src="/../../img/emto_system-loop.svg" alt="Empathy Totems system feedback loop">
+					</div>
+
+					<section class="pill tabs">
+						<ul class="tab-nav">
+							<li class="active skiplink"><a href="#" gumby-goto="#content-diagram"><i class="icon-mobile"></i>Track Yourself</a></li>
+							<li class="skiplink"><a href="#" gumby-goto="#content-diagram"><i class="icon-cloud"></i> Control Your Data</a></li>
+							<li class="skiplink"><a href="#" gumby-goto="#content-diagram"><i class="icon-light-up"></i>Express Yourself</a></li>
+						</ul>
+
+						<br><br>
+
+						<div id="features-details" class="tab-content active">
+							<h2><i class="icon-mobile"></i> Track yourself</h2>
+							<br>
+							<h5>
+								The data is entered through an application capturing different emotional data to be represented in correlating colors.
+								This enables people to increase their emotional awareness level while communicating it across.
+							</h5>
+							<h5>
+								The totem's physical structure acts as an omnipresent reminder of a person's emotional climate.
+							</h5>
+
+							<div class="large pull_right skiplink"><a href="#" gumby-goto="#content-features-a"><i class="icon-quote"></i><br>Tanya's Story</a></div>
+
+
+
+							<img src="/../../img/persona_02_1.png" alt="">
+							<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/persona_02_1.png" alt=""> -->
+
+
+
+						</div>
+						<div class="tab-content">
+							<h2><i class="icon-cloud"></i> Control Your Data</h2>
+							<br>
+							<h5>
+								The data is encrypted and secured locally.
+							</h5>
+							<h5>
+								All the data in the system is private, and you have full control over it. Sharing and exporting features are also available.
+							</h5>
+
+							<div class="large pull_right skiplink"><a href="#" gumby-goto="#content-features-b"><i class="icon-quote"></i><br>Melissa's Story</a></div>
+
+
+
+							<img src="/../../img/persona_01_1.png" alt="">
+							<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/persona_01_1.png" alt=""> -->
+
+
+
+
+						</div>
+						<div class="tab-content">
+							<h2><i class="icon-light-up"></i> Express Yourself</h2>
+							<br>
+							<h5>
+								The system output consists of a mystical totem serving as a visual representation of a person's emotions.
+							</h5>
+							<h5>
+								The data is represented by an LED that constantly fluctuates through multiple color patters correlated to the user's historical and current emotion data.
+							</h5>
+
+							<div class="large pull_right skiplink"><a href="#" gumby-goto="#content-features-c"><i class="icon-quote"></i><br>Javier's Story</a></div>
+
+
+
+							<img src="/../../img/persona_03_1.png" alt="">
+							<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/persona_03_1.png" alt=""> -->
+
+
+
+						</div>
+					</section>
 				</div>
-			</article>
-
-			<article class="row">
-				<ul>
-					<li>
-						<h4 class="four columns"><i class="icon-mobile"></i> Track yourself</h4>
-						<p class="eight columns">Track your mood with the state of the art iOS application </p>
-					</li>
-
-					<li>
-						<h4 class="four columns"><i class="icon-cloud"></i> Control your data</h4>
-						<p class="eight columns">You own your data. You have full privacy control over your encrypted data. Store it, export it, and share it.. or NOT. </p>
-					</li>
-
-					<li>
-						<h4 class="four columns"><i class="icon-light-up"></i> Express yourself</h4>
-						<p class="eight columns">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, animi libero cupiditate cum corporis quia deleniti dolorem expedita voluptatum fugit numquam ma.</p>
-					</li>
-
-				</ul>
-			</article>
-
-
-		</section>
-
-
-	</div>
-
-
-
-
-
-	<!-- Footer -->
-	<div class="wrapper footer-container">
-		<section id="footer" class="row">
-			<div class="four columns">
-				<h6>&copy; 2013 Empathy Totems </h6>
 			</div>
-			<ul id="nav-footer" class="eight columns">
-				<li><a href="http://blog.empathytotems.com" target="_blank"><i class="icon-book-open"></i>Blog</a></li>
-				<li><a href="ui.html"><i class="icon-brush"></i>UI</a></li>
-				<li><a href="https://github.com/luiscielak/empathytotems"><i class="icon-github"></i>GitHub</a></li>
-				<li><a href="#"><i class="icon-login"></i>Login</a></li>
-				<li><a href="#"><i class="icon-user"></i>Sign up</a></li>
-			</ul>
-		</section>
-	</div>
+		</article>
+
+		<br><br>
+
+	</section>
+</div>
+
+
+<!-- Features A - Intro -->
+
+
+<!-- Features A -->
+<div class="wrapper">
+	<section id="content-features-a" class="container">
+
+
+		<article class="container-main">
+
+			<div class="row">
+				<div class="twelve columns centered">
+
+					<br><br>
+
+					<!-- ROW: 1 -->
+					<div>
+
+
+						<img src="/../../img/persona_02_1.png" alt="">
+						<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/persona_02_1.png" alt=""> -->
+
+
+						<h4>
+							<blockquote>
+								What if we could illustrate how daily and gradual struggles for couples take a toll on their loving relationships.
+							</blockquote>
+						</h4>
+					</div>
+
+					<br><br>
+					<br><br>
+
+					<!-- ROW: 2 -->
+					<div class="row">
+
+						<div class="six columns">
+							<h4><i class="icon-quote"></i><br>
+
+								All day I am surrounded by kids. Sometimes they are good students, but in reality most of the time they are not. <br>
+								Anyway, this is what I love doing, and love doing it everyday!
+							</h4>
+						</div>
+						<br>
+						<div class="six columns">
+							<div class="module">
+
+							<img src="/../../img/gif/a_01.gif"/></div>
+							<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/a_01.gif"/></div> -->
+
+
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<br><br><br><br>
+				</div>
+
+
+				<!-- ROW: 3 -->
+
+				<div class="row">
+					<div class="six columns">
+						<div class="module">
+
+						<img src="/../../img/gif/a_02.gif"/></div>
+						<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/a_02.gif"/></div> -->
+
+
+					</div>
+
+					<div class="six columns">
+						<h4>
+							But those bad days, can be really bad sometimes. <br>
+							I loose my patience and I pity whoever gets on my way that day :)
+						</h4>
+					</div>
+
+				</div>
+
+				<br><br><br>
+
+				<!-- ROW: 4 -->
+
+				<div class="row">
+					<div class="three columns">
+						&nbsp;
+					</div>
+					<div class="nine columns">
+						<div class="module">
+
+						<img src="/../../img/gif/a_03.gif"/></div>
+						<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/a_03.gif"/></div> -->
+
+
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="seven columns pull_right">
+						<h4>
+							I love my husband. <br>
+							Sometimes I bring my unsettled feelings back home, and we just end up arguing and fighting... which is really the last thing I need on those days in which either of us is in a bad mood.
+						</h4>
+					</div>
+
+				</div>
+
+				<br><br><br>
+
+				<!-- ROW: 5 -->
+				<div class="row">
+
+					<div class="six columns">
+						<h4>
+							<br>
+							Thanks to the Empathy Totems systems my husband and I can maintain an open channel of communication. We now have a private stream of our emotions with each other.
+						</h4>
+					</div>
+					<br>
+					<div class="six columns">
+						<div class="module">
+
+
+							<img src="/../../img/gif/emto_env_01.gif"/>
+							<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/emto_env_01.gif"/> -->
+
+
+						</div>
+					</div>
+				</div>
+
+				<br><br><br>
+
+				<!-- ROW: 6 -->
+				<div class="row">
+
+					<div class="six columns">
+						<div class="module">
+
+
+							<img src="/../../img/gif/a_04.gif"/>
+							<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/a_04.gif"/> -->
+
+
+						</div>
+					</div>
+
+					<div class="six columns">
+						<h4>
+							<br>
+							Now, every time my husband knows that I've had a rocky day at work, he surprises me with my favorite meals!
+						</h4>
+						<br><br><br><br><br>
+						<h3 class="skiplink"><a href="#" gumby-goto="#content-signup">
+							get yours <i class="icon-down-open-big"></i></a>
+						</h3>
+
+					</div>
+
+				</div>
+
+
+			</div>
+		</article>
+
+
+		<br><br><br><br>
+
+		<article class="container-header">
+			<h1 class="skiplink"><a href="#" gumby-goto="#content-features">
+				<i class="icon-left-open-big"></i> features</a>
+			</h1>
+		</article>
+
+		<br><br><br><br>
+	</section>
+
 
 </div>
 
 
 
 
+<!-- Features B -->
+<div class="wrapper">
+	<section id="content-features-b" class="container">
 
-<!-- Grab Google CDN's jQuery, fall back to local if offline -->
-<!-- 2.0 for modern browsers, 1.10 for .oldie -->
-<script>
-	var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
-	if(!oldieCheck) {
-		document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
-	} else {
-		document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
-	}
+		<article class="container-main">
+			<div class="row">
+				<div class="ten columns centered">
+
+					<br><br>
+
+					<div>
+						<img src="/../../img/persona_01_1.png" alt="">
+						<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/persona_01_1.png" alt=""> -->
+						<h4>
+							<blockquote>
+								What if that gap can be sealed by providing better means of sharing each other's emotional streams.
+							</blockquote>
+						</h4>
+					</div>
+
+					<br><br><br>
+
+
+
+					<div class="row">
+						<div class="ten columns centered">
+							<img src="/../../img/gif/b_01.gif"/>
+							<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/b_01.gif"/> -->
+						</div>
+					</div>
+					<div class="row">
+						<div class="eight columns">
+							<h2><i class="icon-quote"></i></h2>
+							<h4>I was diagnosed with a bipolar mood disorder.  My doctors suggested I keep a log of my emotions as part of my treatment. <br><br>
+								They said this would allow them to help me understand my mood swings and communicate my emotions better with my family and friends.</h4>
+							</div>
+						</div>
+
+						<br><br><br><br>
+						<br><br><br><br>
+
+						<div class="row">
+							<div class="seven columns">
+								<img src="/../../img/gif/b_03.gif"/>
+								<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/b_03.gif"/> -->
+							</div>
+							<div class="five columns">
+								<h4>With the Empathy Totems I can now easily share and keep track of my emotions with an awesome app! <br><br>
+									This log-keeping technique has helped me reduce friction with my loved ones.</h4>
+								</div>
+							</div>
+
+							<br><br><br><br>
+							<br><br><br>
+
+							<div class="row">
+
+								<div class="six columns">
+									<h4>Do you want to learn more about how dynamic human communication can be through the Empathy Totems system?<br><br>
+										<span class="skiplink"><a href="#" gumby-goto="#content-signup" gumby-offset="-200">
+											signup! <i class="icon-down-open-big"></i></a>
+										</span>
+
+									</h4>
+								</div>
+
+								<div class="six columns">
+									<img src="/../../img/gif/emto_env_02.gif"/>
+									<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/emto_env_02.gif"/> -->
+								</div>
+
+
+							</div>
+
+							<br><br><br>
+
+
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="http://luiscielak.us6.list-manage1.com/subscribe/post?u=bbcff8d7fd172421117a46695&amp;id=736ea8fb0b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<h2>Subscribe to our mailing list</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+<div class="mc-field-group input-group">
+    <strong>Email Format </strong>
+    <ul><li><input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0"><label for="mce-EMAILTYPE-0">html</label></li>
+<li><input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1"><label for="mce-EMAILTYPE-1">text</label></li>
+</ul>
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+<script type="text/javascript">
+var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';
+try {
+    var jqueryLoaded=jQuery;
+    jqueryLoaded=true;
+} catch(err) {
+    var jqueryLoaded=false;
+}
+var head= document.getElementsByTagName('head')[0];
+if (!jqueryLoaded) {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = '//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
+    head.appendChild(script);
+    if (script.readyState && script.onload!==null){
+        script.onreadystatechange= function () {
+              if (this.readyState == 'complete') mce_preload_check();
+        }
+    }
+}
+
+var err_style = '';
+try{
+    err_style = mc_custom_error_style;
+} catch(e){
+    err_style = '#mc_embed_signup input.mce_inline_error{border-color:#6B0505;} #mc_embed_signup div.mce_inline_error{margin: 0 0 1em 0; padding: 5px 10px; background-color:#6B0505; font-weight: bold; z-index: 1; color:#fff;}';
+}
+var head= document.getElementsByTagName('head')[0];
+var style= document.createElement('style');
+style.type= 'text/css';
+if (style.styleSheet) {
+  style.styleSheet.cssText = err_style;
+} else {
+  style.appendChild(document.createTextNode(err_style));
+}
+head.appendChild(style);
+setTimeout('mce_preload_check();', 250);
+
+var mce_preload_checks = 0;
+function mce_preload_check(){
+    if (mce_preload_checks>40) return;
+    mce_preload_checks++;
+    try {
+        var jqueryLoaded=jQuery;
+    } catch(err) {
+        setTimeout('mce_preload_check();', 250);
+        return;
+    }
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'http://downloads.mailchimp.com/js/jquery.form-n-validate.js';
+    head.appendChild(script);
+    try {
+        var validatorLoaded=jQuery("#fake-form").validate({});
+    } catch(err) {
+        setTimeout('mce_preload_check();', 250);
+        return;
+    }
+    mce_init_form();
+}
+function mce_init_form(){
+    jQuery(document).ready( function($) {
+      var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
+      var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
+      $("#mc-embedded-subscribe-form").unbind('submit');//remove the validator so we can get into beforeSubmit on the ajaxform, which then calls the validator
+      options = { url: 'http://luiscielak.us6.list-manage.com/subscribe/post-json?u=bbcff8d7fd172421117a46695&id=736ea8fb0b&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+                    beforeSubmit: function(){
+                        $('#mce_tmp_error_msg').remove();
+                        $('.datefield','#mc_embed_signup').each(
+                            function(){
+                                var txt = 'filled';
+                                var fields = new Array();
+                                var i = 0;
+                                $(':text', this).each(
+                                    function(){
+                                        fields[i] = this;
+                                        i++;
+                                    });
+                                $(':hidden', this).each(
+                                    function(){
+                                        var bday = false;
+                                        if (fields.length == 2){
+                                            bday = true;
+                                            fields[2] = {'value':1970};//trick birthdays into having years
+                                        }
+                                    	if ( fields[0].value=='MM' && fields[1].value=='DD' && (fields[2].value=='YYYY' || (bday && fields[2].value==1970) ) ){
+                                    		this.value = '';
+									    } else if ( fields[0].value=='' && fields[1].value=='' && (fields[2].value=='' || (bday && fields[2].value==1970) ) ){
+                                    		this.value = '';
+									    } else {
+									        if (/\[day\]/.test(fields[0].name)){
+    	                                        this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;
+									        } else {
+    	                                        this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
+	                                        }
+	                                    }
+                                    });
+                            });
+                        $('.phonefield-us','#mc_embed_signup').each(
+                            function(){
+                                var fields = new Array();
+                                var i = 0;
+                                $(':text', this).each(
+                                    function(){
+                                        fields[i] = this;
+                                        i++;
+                                    });
+                                $(':hidden', this).each(
+                                    function(){
+                                        if ( fields[0].value.length != 3 || fields[1].value.length!=3 || fields[2].value.length!=4 ){
+                                    		this.value = '';
+									    } else {
+									        this.value = 'filled';
+	                                    }
+                                    });
+                            });
+                        return mce_validator.form();
+                    },
+                    success: mce_success_cb
+                };
+      $('#mc-embedded-subscribe-form').ajaxForm(options);
+
+
+    });
+}
+function mce_success_cb(resp){
+    $('#mce-success-response').hide();
+    $('#mce-error-response').hide();
+    if (resp.result=="success"){
+        $('#mce-'+resp.result+'-response').show();
+        $('#mce-'+resp.result+'-response').html(resp.msg);
+        $('#mc-embedded-subscribe-form').each(function(){
+            this.reset();
+    	});
+    } else {
+        var index = -1;
+        var msg;
+        try {
+            var parts = resp.msg.split(' - ',2);
+            if (parts[1]==undefined){
+                msg = resp.msg;
+            } else {
+                i = parseInt(parts[0]);
+                if (i.toString() == parts[0]){
+                    index = parts[0];
+                    msg = parts[1];
+                } else {
+                    index = -1;
+                    msg = resp.msg;
+                }
+            }
+        } catch(e){
+            index = -1;
+            msg = resp.msg;
+        }
+        try{
+            if (index== -1){
+                $('#mce-'+resp.result+'-response').show();
+                $('#mce-'+resp.result+'-response').html(msg);
+            } else {
+                err_id = 'mce_tmp_error_msg';
+                html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
+
+                var input_id = '#mc_embed_signup';
+                var f = $(input_id);
+                if (ftypes[index]=='address'){
+                    input_id = '#mce-'+fnames[index]+'-addr1';
+                    f = $(input_id).parent().parent().get(0);
+                } else if (ftypes[index]=='date'){
+                    input_id = '#mce-'+fnames[index]+'-month';
+                    f = $(input_id).parent().parent().get(0);
+                } else {
+                    input_id = '#mce-'+fnames[index];
+                    f = $().parent(input_id).get(0);
+                }
+                if (f){
+                    $(f).append(html);
+                    $(input_id).focus();
+                } else {
+                    $('#mce-'+resp.result+'-response').show();
+                    $('#mce-'+resp.result+'-response').html(msg);
+                }
+            }
+        } catch(e){
+            $('#mce-'+resp.result+'-response').show();
+            $('#mce-'+resp.result+'-response').html(msg);
+        }
+    }
+}
+
 </script>
-<script>
-	if(!window.jQuery) {
-		if(!oldieCheck) {
-			document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
-		} else {
-			document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>');
-		}
-	}
-</script>
+<!--End mc_embed_signup-->
+
+
+
+
+						</div>
+					</div>
+				</article>
+
+				<br><br><br><br>
+				<article class="container-header">
+					<h1 class="skiplink"><a href="#" gumby-goto="#content-features">
+						<i class="icon-left-open-big"></i>features</a>
+					</h1>
+				</article>
+
+				<br><br><br>
+
+
+			</section>
+		</div>
+
+
+
+
+		<!-- Features C -->
+		<div class="wrapper">
+			<section id="content-features-c" class="container">
+
+
+				<article class="container-main">
+					<div class="row">
+						<div class="ten columns centered">
+
+							<br><br>
+
+							<div>
+								<img src="/../../img/persona_03_1.png" alt="">
+								<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/persona_03_1.png" alt=""> -->
+								<h4>
+									<blockquote>
+										What if we could communicate and acknowledge each other's emotions, have empathy, and reciprocate better.
+									</blockquote>
+								</h4>
+							</div>
+
+							<br><br><br>
+
+							<div class="row">
+								<div class="ten columns centered">
+									<h3><i class="icon-quote"></i></h3>
+									<h3>Constant interruptions <br></i>Lack of focus. <br>
+										Increasing stress levels.</h3>
+										<h2>welcome to my world.</h2>
+									</div>
+									<br><br>
+									<div class="four columns push_four">
+
+										<img src="/../../img/gif/c_01.gif"/>
+										<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/c_01.gif"/> -->
+									</div>
+								</div>
+
+								<br><br><br>
+
+								<div class="row">
+									<div class="six columns">
+										<h4>With the Empathy Totems I can now visualize and express my current emotional state to everyone at the office.
+											<br><br>
+											Sometimes I broadcast a 'free-to-chat' or a 'do-not-disturb' signal. </h4>
+										</div>
+										<div class="six columns">
+
+											<img src="/../../img/gif/emto_env_03.gif"/>
+											<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/emto_env_03.gif"/> -->
+										</div>
+									</div>
+
+
+									<br><br><br><br><br><br>
+
+									<div class="row">
+
+										<div class="eight columns">
+										</div>
+
+										<div class="nine columns push_three">
+											<h4>I no longer loose hours trying to get back my concentration after an interruption. <br><br>
+												<img src="/../../img/gif/c_03.gif"/> <br>
+												<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/c_03.gif"/> <br> -->
+												I am now more productive and now can enjoy a happier working environment. <br> <br>
+												Everyone at work wants an Empathy Totem now!</h4>
+
+												<br><br>
+												<h3 class="skiplink"><a href="#" gumby-goto="#content-signup" gumby-offset="-200">
+													get yours <i class="icon-down-open-big"></i></a>
+												</h3>
+
+											</div>
+
+
+										</div>
+
+										<br><br><br><br><br>
+
+
+									</div>
+								</div>
+							</article>
+
+							<article class="container-header">
+								<h1 class="skiplink"><a href="#" gumby-goto="#content-features">
+									<i class="icon-left-open-big"></i> features</a>
+								</h1>
+							</article>
+
+
+							<br><br><br><br><br>
+
+						</section>
+					</div>
+
+
+
+
+					<!-- Signup -->
+					<div class="wrapper">
+						<section id="content-signup" class="container">
+
+
+							<article class="container-header">
+								<h1>signup</h1>
+							</article>
+
+							<div class="row">
+								<article class="container-main ten columns centered">
+
+									<form class="form-email" action="">
+										<ul>
+											<li class="append field">
+												<input class="wide email input" type="email" placeholder="Enter email address..." />
+												<div class="medium primary btn"><a href="#">Go</a></div>
+											</li>
+											<br>
+										</ul>
+										<p>The Empathy Totems system is not available yet. <br>
+											Sign-up to receive updates and news on availability.</p>
+											<h6>We won't spam or sell your info :)</h6>
+										</form>
+
+									</article>
+								</div>
+								<br>
+
+							</section>
+						</div>
+
+
+
+
+						<!-- Outro -->
+						<div class="wrapper">
+							<section id="content-outro" class="container">
+								<article class="container-header">
+									<!-- <h1>outro</h1> -->
+								</article>
+
+								<br><br><br>
+
+								<div class="row">
+
+
+									<div class="four columns centered">
+										<img src="/../../img/gif/emto_env_01.gif"/>
+										<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/emto_env_01.gif"/> -->
+									</div>
+
+									<br><br>
+
+									<div class="four columns centered">
+										<img src="/../../img/gif/emto_env_02.gif"/>
+										<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/emto_env_02.gif"/> -->
+									</div>
+
+									<br><br>
+
+									<div class="four columns centered">
+										<img src="/../../img/gif/emto_env_03.gif"/>
+										<!-- <img src="file:///Users/lcielak/Dropbox/projects/2013/EMTO_empathy-totems/code/src/EmpathyTotems/emto-web/img/gif/emto_env_03.gif"/> -->
+									</div>
+
+
+
+
+								</section>
+							</div>
+						</div>
+
+
+
+
+
+
+						<!-- Footer -->
+						<div class="wrapper footer-container">
+							<section id="footer" class="row">
+								<div class="four columns">
+									<h6>&copy; 2013 Empathy Totems </h6>
+								</div>
+							</section>
+						</div>
+
+					</div>
+
+
+
+
+					<!-- Grab Google CDN's jQuery, fall back to local if offline -->
+					<!-- 2.0 for modern browsers, 1.10 for .oldie -->
+					<script>
+						var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+						if(!oldieCheck) {
+							document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
+						} else {
+							document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
+						}
+					</script>
+					<script>
+						if(!window.jQuery) {
+							if(!oldieCheck) {
+								document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
+							} else {
+								document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>');
+							}
+						}
+					</script>
+
 
 <!--
 Include gumby.js followed by UI modules followed by gumby.init.js
@@ -230,3 +992,6 @@ gumby.min.js contains gumby.js, all UI modules and gumby.init.js
 
 </body>
 </html>
+
+
+
