@@ -13,11 +13,12 @@ _Information Visualization_
 
 [Product](product.md)  
 _Features_  
+_Components_  
+_Diagrams_  
 _Implementation Roadmap_  
 _Needs and Opportunities_  
 _Personas_  
 _Business Goals_  
-_SWOT Analysis_  
 _Branding_  
 
 [Process and Methodology](process.md)  
