@@ -1,0 +1,162 @@
+<!--
+  // todo.md
+  // ===================
+-->
+
+Tasks
+===
+
+Research
+---
+- Mood tracking
+- Quantified-self
+- Life-logging applications
+- Mood tracking and the medical industry
+- Non-verbal communication
+
+Design
+---
+- Mobile app wireframes
+- Mobile app comps
+- Sketch totem pieces
+- InDesign document template
+- Entity Relationship Diagram
+- Marketing site wireframes
+
+Build
+---
+- Laser cut totem pieces
+- Cardboard prototypes
+- Arduino code
+- LED behavior
+- Marketing site
+- Mobile app prototype
+
+Test
+---
+- User testing
+
+
+Schedule
+===
+
+
+Week 01
+---
+
+
+
+
+Week 02
+---
+
+
+
+
+Week 03
+---
+
+
+
+
+Week 04
+---
+
+
+
+
+Week 05
+---
+
+
+
+
+Week 06
+---
+
+
+
+
+Week 07
+---
+
+
+
+
+Week 08
+---
+
+
+
+
+Week 09
+---
+
+
+
+
+Week 10
+---
+
+
+
+
+Week 11
+---
+
+
+
+
+Week 12
+---
+
+
+
+
+Week 13
+---
+
+
+
+
+Week 14
+---
+
+
+
+
+Week 15
+---
+
+
+
+
+Week 16
+---
+
+
+
+
+Week 17
+---
+
+
+
+
+Week 18
+---
+
+
+
+
+Week 19
+---
+
+
+
+
+Week 20
+---
+
+
+
