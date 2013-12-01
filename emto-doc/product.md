@@ -19,7 +19,7 @@ The data is entered through a web-based mobile application representing the nine
 
 The data received and interpreted by an Arduino micro-controller located inside the totem. The data is represented by an LED that constantly fluctuates through multiple color patters correlated to the user’s historical and current emotion data. This enables people to increase their emotional awareness level while communicating it across. The totem’s physical structure acts as an omnipresent reminder of a person’s emotional climate.
 
-![challange-skills_diagram](http://placehold.it/320x320)
+<!-- ![challange-skills_diagram](http://placehold.it/320x320) -->
 
 Components
 ---
@@ -48,21 +48,21 @@ Diagrams
 
 ### Data Flow  
 
-![data-flow_diagram](http://placehold.it/640x120)
+<!-- ![data-flow_diagram](http://placehold.it/640x120) -->
 
 Emotion → Emotion Rate → Empathy Rate → Empathy Glow Application  
 
 
 ### Application Stack  
 
-![app-stack_diagram](http://placehold.it/640x120)
+<!-- ![app-stack_diagram](http://placehold.it/640x120) -->
 
 Linux → Apache → MySQL → PHP → Application  
 
 
 ### Network Topology  
 
-![network_diagram](http://placehold.it/640x120)
+<!-- ![network_diagram](http://placehold.it/640x120) -->
 
 Application → Web Server → Processing → Arduino  
 
@@ -117,7 +117,7 @@ Three main design personas have been identified in order to provide user-centric
 
 Grade school teacher. Resourceful, social, caring, smart.
 
-![persona-01_image](http://placehold.it/140x150)
+<!-- ![persona-01_image](http://placehold.it/140x150) -->
 
 **Purpose**
 
@@ -145,7 +145,7 @@ Being able to communicate their stream of feelings through their devices and the
 
 Art student. Social, creative, mobile. Shy, not talkative but likes action.
 
-![persona-02_image](http://placehold.it/140x150)
+<!-- ![persona-02_image](http://placehold.it/140x150) -->
 
 **Purpose**
 
@@ -175,7 +175,7 @@ Melissa can easily share and keep track of her emotions through an application. 
 
 Software Developer. Smart, problem-solver, tech-oriented. Introverted, cool and reserved.
 
-![persona-03_image](http://placehold.it/140x150)
+<!-- ![persona-03_image](http://placehold.it/140x150) -->
 
 **Purpose**
 
@@ -217,8 +217,8 @@ The logo consists of a line drawing representing the totem's pyramid-like struct
 
 ### Typography
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, nostrum, nemo quae perspiciatis corporis dolores error tenetur obcaecati voluptatibus ab quo aperiam vitae. Obcaecati veniam animi nobis rem atque ea.
-
+[type section
+]
 ### Colors
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, voluptatibus, odio voluptate maxime ad assumenda libero dicta quos dolorum iure nam magnam fuga minima voluptates maiores illum in quaerat doloribus!
+[colors section]
