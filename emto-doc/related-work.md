@@ -4,20 +4,19 @@
 Quantified-Self
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, laboriosam, mollitia, fugiat perspiciatis perferendis quisquam aliquid officiis reprehenderit atque ad sequi maxime expedita eos nihil nostrum quo nesciunt incidunt dolore.
+[qs_section]
 
 Life-Logging
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, blanditiis, maxime dolores itaque ipsam assumenda voluptatem incidunt. Vitae, quod, nostrum, ad hic voluptates harum asperiores molestias maiores laboriosam assumenda ratione?
+[lifelog_section]
 
 Digital Fabrication
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, voluptatibus, saepe soluta ex maiores deserunt cumque in eaque consectetur placeat qui velit minima sunt repudiandae harum officiis neque. Suscipit, nesciunt.
+[digital-fabrication_sections]
 
 Information Visualization
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, ad, nostrum cum alias inventore quisquam est ab accusantium quae et facilis velit harum aspernatur. Aspernatur odio molestiae nesciunt ad assumenda?
-
+[info-vis_section]

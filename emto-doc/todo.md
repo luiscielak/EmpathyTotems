@@ -1,9 +1,4 @@
-<!--
-  // todo.md
-  // ===================
--->
-
-Tasks
+[To Do](toc.md)
 ===
 
 Research
@@ -16,8 +11,8 @@ Research
 
 Design
 ---
-- Mobile app wireframes
-- Mobile app comps
+- Mobile application wireframes
+- Mobile application comps
 - Sketch totem pieces
 - InDesign document template
 - Entity Relationship Diagram
@@ -30,12 +25,15 @@ Build
 - Arduino code
 - LED behavior
 - Marketing site
-- Mobile app prototype
+- Mobile application prototype
+- Totem structure prototype
+
 
 Test
 ---
 - User testing
 
+- - -
 
 Schedule
 ===
