@@ -6,7 +6,6 @@ Research
 - Mood tracking
 - Quantified-self
 - Life-logging applications
-- Mood tracking and the medical industry
 - Non-verbal communication
 
 Design
@@ -23,9 +22,9 @@ Build
 - Laser cut totem pieces
 - Cardboard prototypes
 - Arduino code
-- LED behavior
-- Marketing site
-- Mobile application prototype
+- LED behavior studies
+- Code marketing site
+- Code mobile application prototype
 - Totem structure prototype
 
 
