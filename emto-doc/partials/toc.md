@@ -1,17 +1,17 @@
 Table of Contents
 ===
 
-[Abstract](partials/abstract.md)  
+[Abstract](abstract.md)  
 
-[Overview](partials/overview.md)  
+[Overview](overview.md)  
 
-[Related Prior Work](partials/related-work.md)  
+[Related Prior Work](related-work.md)  
 - _Quantified-Self_  
 - _Life-Logging_  
 - _Digital Fabrication_  
 - _Information Visualization_  
 
-[Product](partials/product.md)  
+[Product](product.md)  
 - _Features_  
 - _Components_  
 - _Diagrams_  
@@ -21,16 +21,16 @@ Table of Contents
 - _Business Goals_  
 - _Branding_  
 
-[Process and Methodology](partials/process.md)  
+[Process and Methodology](process.md)  
 - _Material_  
 - _Representation_  
 
-[Outcomes and Implications](partials/outcome.md)  
+[Outcomes and Implications](outcome.md)  
 
 Appendices  
-Appendix 1: [User Interface (UI) Wireframes](partials/apx.md)  
-Appendix 2: [Entity Relationship Diagram (ERD)](partials/apx.md)  
-Appendix 3: [Project Implementation Gantt Chart](partials/gantt.md)  
-Appendix 4: [Task List](partials/todo.md)  
+Appendix 1: [User Interface (UI) Wireframes](apx.md)  
+Appendix 2: [Entity Relationship Diagram (ERD)](apx.md)  
+Appendix 3: [Project Implementation Gantt Chart](gantt.md)  
+Appendix 4: [Task List](todo.md)  
 
-[Bibliography](partials/bib.md)  
+[Bibliography](bib.md)  
