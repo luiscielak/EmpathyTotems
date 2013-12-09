@@ -1,0 +1,76 @@
+<document>
+  <abstract>
+    <h2>
+      abstract
+    </h2>
+    <text>
+      Empathy Totems are data sculptures that visually represent personal information to be used as a non-verbal communication tool. These objects are part of a study that explores how to understand and communicate information by conveying data through physical objects. The Empathy Totems will enable people to gain a better understanding of their own emotions while expressing them in a physical environment.
+
+      The totem structures combine data-feeds of mood, physical activity, and geo-location gathered form the user. This project investigates how people can gain a better understanding of human emotions by interacting with data systems as part of their environment. The system establishes a framework to transform personal data into physical structures.
+    </text>
+  </abstract>
+  <overview>
+    <h2>
+      overview
+    </h2>
+    <text>
+      In everyday life we receive and emit information rooted to our internal emotional network. Often times our expression of these subconscious emotions is abstract, and has little or no value when trying to remediate heated relationship arguments.
+
+      It is only after we have a deep understanding of our own emotions that we can reach a certain level of empathy. Empathy is seeing the world through other people’s eyes. This is an important step in the path of accomplishing long-lasting human relationships.
+    </text>
+  </overview>
+  <related-work>
+    <h2>
+      related-work
+    </h2>
+    <h3>Quantified-Self</h3>
+    <h3>Life-Logging</h3>
+    <h3>Digital Fabrication</h3>
+    <h3>Information Visualization</h3>
+    <text>
+      related-work related-work related-work related-work related-work related-work
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, esse, deserunt, ipsam, quibusdam obcaecati harum eveniet error modi ipsa placeat perspiciatis tenetur aliquid quis magnam eum. Nam porro hic debitis.
+    </text>
+  </related-work>
+  <product>
+    <h2>
+      product
+    </h2>
+    <text>
+      product product product product product product product product
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, assumenda excepturi eos doloremque. Magni maxime omnis quasi consectetur totam iste enim perspiciatis doloremque unde sint. Dolorum odit excepturi eius et!
+    </text>
+  </product>
+  <process>
+    <h2>
+      process
+    </h2>
+    <text>
+      process process process process process process process process
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, molestias aspernatur porro hic nisi et tenetur vel accusamus officiis laboriosam. Dolorum, itaque, quo sunt alias ab cum beatae debitis magni.
+    </text>
+  </process>
+  <outcome>
+    <h2>
+      outcome
+    </h2>
+    <text>
+      I need to do more research on available mood tracking studies such as PANAA, PONS, ESM in order to find a more adequate methodology for entering emotion data. My knowledge on human behavior is limited, so I need to do more research on human emotional patterns and happiness for a proper tracking system to be put in place.
+
+      Next versions:  
+      - Wireless functionality over Bluetooth or WiFi  
+      - Multiple-user support  
+      - Dynamic tool for 3D printing customizable totem structures  
+
+    </text>
+  </outcome>
+  <todo>
+    <h2>
+      todo
+    </h2>
+    <text>
+      todo  todo  todo  todo  todo  todo  todo  todo  todo
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, delectus omnis inventore dolor fugit dolorum. Tempora, suscipit, voluptas, distinctio, minima at eum delectus ipsam ad reprehenderit accusamus magnam deleniti eveniet.
+    </text>
+  </todo>
+</document>
