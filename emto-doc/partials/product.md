@@ -215,6 +215,8 @@ Human-centric. Information-driven. The overall look and feel is organic yet tech
 
 The logo consists of a line drawing representing the totem's pyramid-like structure. This shape is pointing upwards implying a self-help motto influenced by the life-logging, quantified-self culture behind the project.
 
+Branding elements will be generated with computer code. This generative approach will allow for more organic and vast content.
+
 ### Typography
 
 [type section
