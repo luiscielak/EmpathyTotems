@@ -24,59 +24,59 @@ The data received and interpreted by an Arduino micro-controller located inside 
 Components
 ---
 
-#### Hardware  
-- 1 Arduino Uno micro-controller 4 Wires  
-- 1 Breadboard  
-- 1 RGB LED  
-- 3 Resistors  
+Hardware
+- 1 Arduino Uno micro-controller 4 Wires
+- 1 Breadboard
+- 1 RGB LED
+- 3 Resistors
 
-#### Software  
-- Arduino  
-- Processing  
-- LAMP stack server  
+Software
+- Arduino
+- Processing
+- LAMP stack server
 
-#### Functions  
-- Input emotion data from a mobile device  
-- Store emotion entries for further analysis  
-- Send emotion data to an Arduino microcontroller  
-- Receive emotion data from server  
-- Interpret emotion data and convert to empathy rate  
-- Represent empathy rate by using color, form, shape, and texture  
+Functions
+- Input emotion data from a mobile device
+- Store emotion entries for further analysis
+- Send emotion data to an Arduino microcontroller
+- Receive emotion data from server
+- Interpret emotion data and convert to empathy rate
+- Represent empathy rate by using color, form, shape, and texture
 
 Diagrams
 ---
 
-### Data Flow  
+### Data Flow
 
 <!-- ![data-flow_diagram](http://placehold.it/640x120) -->
 
-Emotion → Emotion Rate → Empathy Rate → Empathy Glow Application  
+Emotion → Emotion Rate → Empathy Rate → Empathy Glow Application
 
 
-### Application Stack  
+### Application Stack
 
 <!-- ![app-stack_diagram](http://placehold.it/640x120) -->
 
-Linux → Apache → MySQL → PHP → Application  
+Linux → Apache → MySQL → PHP → Application
 
 
-### Network Topology  
+### Network Topology
 
 <!-- ![network_diagram](http://placehold.it/640x120) -->
 
-Application → Web Server → Processing → Arduino  
+Application → Web Server → Processing → Arduino
 
 
 
 
-Implementation Roadmap
+Roadmap
 ---
 
-The implementation roadmap consists of a schedule of 20 weeks broken down in four phases (research, design, build, and test). The project is due to be complemented on May 8th, with a starting date of January 1st, 2014.
+The implementation roadmap consists of a schedule of 20 weeks divided in four phases (research, design, build, and test). The project is due to be complemented on May 8th, with a starting date of January 1st, 2014.
 
 Each phase consists of a set of project milestones along with the corresponding tasks. This list is being logged in a [todo file](todo.md) and it is visually represented with a [Gantt chart](gantt.md).
 
-Needs and Opportunities
+Needs & Opportunities
 ---
 
 Everyone feels, happy, angry, anxious and depressed sometimes. Paying attention on how we feel by using the tools available to us can help us grow as individuals and lead us to become happier human beings.
@@ -88,10 +88,10 @@ By tracking emotion data we are able to see changes day to day, and week by week
 <!--
 ### Threads
 
-- Lack of well-designed mood tracking studies  
-- Scientists disagree on fundamental questions on whether we can experience more than one mood at the time, or whether we all experience emotions the same way  
-- Extreme moods may interfere with the tracking  
-- Sharing our constant stream of emotions puts us on a very vulnerable state  
+- Lack of well-designed mood tracking studies
+- Scientists disagree on fundamental questions on whether we can experience more than one mood at the time, or whether we all experience emotions the same way
+- Extreme moods may interfere with the tracking
+- Sharing our constant stream of emotions puts us on a very vulnerable state
 -->
 
 ### Needs
@@ -161,7 +161,7 @@ Melissa is able to communicate with her friends, family, and doctor. She is able
 
 When Melissa was diagnosed with a bipolar mood disorder her doctors suggested to keep a log of her emotions as part of her treatment. This would allow them to help her understand her mood swings and communicate her emotions with the ones around her better.
 
-Through the Empathy Totem system Melissa is now able to avoid forced interactions with others when she predicts a mood swing is about to occur. This is possible due to the fast and easy record-keeping solution through a mobile application.
+<!-- Through the Empathy Totem system Melissa is now able to avoid forced interactions with others when she predicts a mood swing is about to occur. This is possible due to the fast and easy record-keeping solution through a mobile application. -->
 
 **Resolution**
 
@@ -179,7 +179,7 @@ Software Developer. Smart, problem-solver, tech-oriented. Introverted, cool and 
 
 **Purpose**
 
-To display the struggle of every-day people when trying to focus and communicate in a working environment. People surrounded by distractions and poor means of non-verbal communication are a cause of friction for the every-day working Joe.
+Display the struggle of every-day people when trying to focus and communicate in a working environment. People surrounded by distractions and poor means of non-verbal communication are a cause of friction for the every-day working Joe.
 
 **Environment**
 
@@ -187,7 +187,7 @@ Office. Cubicles. Meeting rooms.
 
 **Story**
 
-The character is involved in his every-day routine. Everything looks like any other day. Constant interruptions. Lack of focus. Increasing stress levels.
+Javier is involved in his every-day routine. Everything looks like any other day. Constant interruptions. Lack of focus. Increasing stress levels.
 
 As the high stress levels are about to overcome the protagonist, he finds a solution to his every-day problems. A device that will allow him to visually display his current emotional state communicating it to the ones near him. Allowing him to broadcast a 'free-to-chat' or a 'do-not-disturb' signal.
 
@@ -209,18 +209,18 @@ The increased presence of mood tracking applications and physical devices such a
 Branding
 ---
 
-Human-centric. Information-driven. The overall look and feel is organic yet technologically influenced. Polygons, low-poly aesthetic, crystallized objects, and minerals are good examples of the influences behind the brand's design decisions.
+The overall look and feel is organic yet technologically influenced. Polygons, low-poly aesthetic, crystallized objects, and minerals are good examples of the influences behind the brand's design decisions.
 
 ### Logo
 
 The logo consists of a line drawing representing the totem's pyramid-like structure. This shape is pointing upwards implying a self-help motto influenced by the life-logging, quantified-self culture behind the project.
 
-Branding elements will be generated with computer code. This generative approach will allow for more organic and vast content.
+Branding elements will be generated with computer code. This generative approach will allow for more organic and personal content.
 
 ### Typography
 
-[type section
-]
+Human-centric. Information-driven.
+
 ### Colors
 
 [colors section]

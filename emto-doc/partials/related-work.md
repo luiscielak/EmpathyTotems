@@ -11,6 +11,13 @@ Life-Logging
 
 [lifelog_section]
 
+
+Generative Systems
+---
+
+[generative-systems_sections]
+
+
 Digital Fabrication
 ---
 
