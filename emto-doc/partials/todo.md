@@ -7,6 +7,8 @@ Research
 - Quantified-self
 - Life-logging applications
 - Non-verbal communication
+- Native vs web-app
+
 
 Design
 ---
@@ -31,6 +33,8 @@ Build
 Test
 ---
 - User testing
+- Totem code
+-
 
 - - -
 
