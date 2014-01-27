@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <!--
         For demonstration purposes, the `title` is dynamically set here based on
         your `sails.config.appName` to show that you can inject data into layouts
         exactly the same way as with your other view templates.
-    -->
-    <title><%- title %></title>
+      -->
+      <title><%- title %></title>
 
-    <!-- Viewport mobile tag for sensible mobile support -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <!-- Viewport mobile tag for sensible mobile support -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
     <!--
 
@@ -36,6 +36,8 @@
   </head>
 
   <body>
+
+    <%- partial('header.ejs') %>
 
     <!-- Include the view file for the current controller/route -->
     <%- body %>
@@ -92,5 +94,5 @@
 
     -->
 
-    </body>
-</html>
+  </body>
+  </html>

@@ -33,8 +33,8 @@ module.exports.routes = {
   //
   // (This would also work if you had a file at: `/views/home.ejs`)
   '/': {
-    // view: 'home/index'
-    view: 'home/mood-new'
+    view: 'home/index'
+    // view: 'home/mood-new'
   }
 
   /*
